@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_uTE9UKPvEeObPb7eqXVN1w" name="SysMLmodel">
+    <packagedElement xmi:type="uml:Package" xmi:id="_eFv_kKSeEeOKeOccZVrC1Q" name="Requirements Model">
+      <packagedElement xmi:type="uml:Package" xmi:id="_yWxcQKPvEeObPb7eqXVN1w" name="UI"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7aSEIKPvEeObPb7eqXVN1w" name="Use Cases">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_T1KpMKPxEeObPb7eqXVN1w" name="UseCase"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cu3FAKPwEeObPb7eqXVN1w" name="Specifications" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="_xMaVIKSjEeOKeOccZVrC1Q" name="User Friendliness"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2tPcQKSqEeO3keThfj9tqw" name="Computational Performance" visibility="package"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZriG8KSyEeO3keThfj9tqw" name="Ergonomy"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fSyqYKSyEeO3keThfj9tqw" name="Media Access"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8g2gAKSyEeO3keThfj9tqw" name="Cloud Connectivity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ieHhcKSzEeO3keThfj9tqw" name="User Data Management"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KfsukKS1EeO3keThfj9tqw" name="Vision Capacity"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_E7HOMKTBEeO3keThfj9tqw" name="DeriveReqt1" client="_CXieMKTBEeO3keThfj9tqw" supplier="_wZ7wgKS9EeO3keThfj9tqw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_4_dNIKTDEeO3keThfj9tqw" name="DeriveReqt2" client="_OvggcKTBEeO3keThfj9tqw" supplier="_wZ7wgKS9EeO3keThfj9tqw">
+          <mapping xmi:type="uml:OpaqueExpression" xmi:id="_DgxPwKTEEeO3keThfj9tqw" name="Mapping" body="">
+            <language>C++</language>
+          </mapping>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_F2aAMKYeEeO40syU7gHtvA" name="DeriveReqt3" client="_ZkkpYKYdEeO40syU7gHtvA" supplier="_d1MxEKYdEeO40syU7gHtvA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_HUAmoKYeEeO40syU7gHtvA" name="DeriveReqt4" client="_NoYZoKYcEeO40syU7gHtvA" supplier="_d1MxEKYdEeO40syU7gHtvA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_elVioKYfEeO40syU7gHtvA" name="DeriveReqt5" client="_SuB9cKYfEeO40syU7gHtvA" supplier="_bIIjUKYcEeO40syU7gHtvA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_lbtkkKYfEeO40syU7gHtvA" name="DeriveReqt6" client="_4WuSgKYeEeO40syU7gHtvA" supplier="_bIIjUKYcEeO40syU7gHtvA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_pXOX4KYfEeO40syU7gHtvA" name="DeriveReqt7" client="_EpC_wKYfEeO40syU7gHtvA" supplier="_bIIjUKYcEeO40syU7gHtvA"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wZ7wgKS9EeO3keThfj9tqw" name="UI"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CXieMKTBEeO3keThfj9tqw" clientDependency="_E7HOMKTBEeO3keThfj9tqw" name="Operational Mode Selector"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OvggcKTBEeO3keThfj9tqw" clientDependency="_4_dNIKTDEeO3keThfj9tqw" name="Data Plan Selector"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6qR6wKTEEeO3keThfj9tqw" name="HMI Map Navigation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ORlRgKTFEeO3keThfj9tqw" name="Intentional Trigger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_m5T9QKYaEeO40syU7gHtvA" name="Videocam_Timed_Record"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_d1MxEKYdEeO40syU7gHtvA" name="Object Identifcation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pwyOwKYcEeO40syU7gHtvA" name="Detect_Wifi_Heavy_Duty_Upload"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NoYZoKYcEeO40syU7gHtvA" clientDependency="_HUAmoKYeEeO40syU7gHtvA" name="Basic_ANPR"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_bIIjUKYcEeO40syU7gHtvA" name="Automatic_Trigger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__vCOwKYcEeO40syU7gHtvA" name="Driving_Style_Pattern_Recognition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZkkpYKYdEeO40syU7gHtvA" clientDependency="_F2aAMKYeEeO40syU7gHtvA" name="Basic_Pedestrian_Recognition"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4WuSgKYeEeO40syU7gHtvA" clientDependency="_lbtkkKYfEeO40syU7gHtvA" name="Android_Mobile_Automatic_Trigger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EpC_wKYfEeO40syU7gHtvA" clientDependency="_pXOX4KYfEeO40syU7gHtvA" name="BluetoothOBD2_Automatic_Trigger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SuB9cKYfEeO40syU7gHtvA" clientDependency="_elVioKYfEeO40syU7gHtvA" name="iOS_Mobile_Automatic_Trigger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_P0gEMKYiEeO40syU7gHtvA" name="Cloud Storage Capacity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t_8SoKYjEeO40syU7gHtvA" name="Local Storage Capacity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Q5764KYlEeO40syU7gHtvA" name="Call For My Car Number Plate"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D1gQsKYkEeO40syU7gHtvA" name="Economic_Data_Plan_Option"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_N7YUgKYkEeO40syU7gHtvA" name="Full_Data_Plan_Option"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Waye4KYmEeO40syU7gHtvA" name="Encryption Algorithm"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UvnhEKYnEeO40syU7gHtvA" name="Data ID"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_B-UzsKeEEeO9ncsb8lV4WA" name="Shaky Filter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7TGN8KYnEeO40syU7gHtvA" name="Night Vision"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Fmag8KPwEeObPb7eqXVN1w" name="Activity Diagram"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_D_qlkKPwEeObPb7eqXVN1w" name="Constraint Blocks"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5nj2sKd7EeO9ncsb8lV4WA" name="Structure">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0CstEKfVEeO9ncsb8lV4WA" name="Detection Domain">
+          <packagedElement xmi:type="uml:Class" xmi:id="_6bR9YKehEeO9ncsb8lV4WA" name="DetectionDomain">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_6e-FkqfYEeO9ncsb8lV4WA" name="vehicle" type="__hMuUKehEeO9ncsb8lV4WA" aggregation="composite" association="_6e83cKfYEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_-CBVkafYEeO9ncsb8lV4WA" name="hardware placement" type="_IlkEQKfCEeO9ncsb8lV4WA" aggregation="composite" association="_-CAHcKfYEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_C1IfQKfZEeO9ncsb8lV4WA" name="motion sensors" type="_-y53YKfBEeO9ncsb8lV4WA" aggregation="composite" association="_C1GDAKfZEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_DwQDsafZEeO9ncsb8lV4WA" name="environment" type="_HroZIKeiEeO9ncsb8lV4WA" aggregation="composite" association="_DwOOgKfZEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_orau8qfZEeO9ncsb8lV4WA" name="vision sensors" type="_jp5V0KfZEeO9ncsb8lV4WA" aggregation="composite" association="_orZg0KfZEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_HroZIKeiEeO9ncsb8lV4WA" name="Environment">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Dk7nsKfdEeO9ncsb8lV4WA" name="shaking" type="_qDspIKfcEeO9ncsb8lV4WA" aggregation="composite" association="_Dk5ygKfdEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_FIVUIKfdEeO9ncsb8lV4WA" name="weather" type="_oTeBoKfcEeO9ncsb8lV4WA" aggregation="composite" association="_FIS34KfdEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_IlkEQKfCEeO9ncsb8lV4WA" name="Hardware Placement"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-y53YKfBEeO9ncsb8lV4WA" name="Motion Sensors"/>
+          <packagedElement xmi:type="uml:Actor" xmi:id="__hMuUKehEeO9ncsb8lV4WA" name="Vehicle"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jp5V0KfZEeO9ncsb8lV4WA" name="Vision Sensors"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oTeBoKfcEeO9ncsb8lV4WA" name="Weather"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qDspIKfcEeO9ncsb8lV4WA" name="Shaking"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_6e83cKfYEeO9ncsb8lV4WA" name="Association" memberEnd="_6e-FkqfYEeO9ncsb8lV4WA _6e_TsKfYEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6e-FkKfYEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6e-FkafYEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6e_TsKfYEeO9ncsb8lV4WA" name="detectiondomain" type="_6bR9YKehEeO9ncsb8lV4WA" association="_6e83cKfYEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_-CAHcKfYEeO9ncsb8lV4WA" name="Association1" memberEnd="_-CBVkafYEeO9ncsb8lV4WA _-CB8oKfYEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-CAugKfYEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-CBVkKfYEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-CB8oKfYEeO9ncsb8lV4WA" name="detectiondomain" type="_6bR9YKehEeO9ncsb8lV4WA" association="_-CAHcKfYEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_C1GDAKfZEeO9ncsb8lV4WA" name="Association2" memberEnd="_C1IfQKfZEeO9ncsb8lV4WA _C1JtYKfZEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C1HRIKfZEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C1H4MKfZEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_C1JtYKfZEeO9ncsb8lV4WA" name="detectiondomain" type="_6bR9YKehEeO9ncsb8lV4WA" association="_C1GDAKfZEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_DwOOgKfZEeO9ncsb8lV4WA" name="Association3" memberEnd="_DwQDsafZEeO9ncsb8lV4WA _DwSf8KfZEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DwPcoKfZEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DwQDsKfZEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DwSf8KfZEeO9ncsb8lV4WA" name="detectiondomain" type="_6bR9YKehEeO9ncsb8lV4WA" association="_DwOOgKfZEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_orZg0KfZEeO9ncsb8lV4WA" name="Association4" memberEnd="_orau8qfZEeO9ncsb8lV4WA _orbWAKfZEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_orau8KfZEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_orau8afZEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_orbWAKfZEeO9ncsb8lV4WA" name="detectiondomain" type="_6bR9YKehEeO9ncsb8lV4WA" association="_orZg0KfZEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DYdZUKfaEeO9ncsb8lV4WA" name="Recording Domain">
+          <packagedElement xmi:type="uml:Class" xmi:id="_F7bFUKfaEeO9ncsb8lV4WA" name="Recording Domain">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_fFVMMKfeEeO9ncsb8lV4WA" name="driver" type="_PV-UMKfaEeO9ncsb8lV4WA" aggregation="composite" association="_fFSv8KfeEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_gDF08afeEeO9ncsb8lV4WA" name="ui" type="_Ot0yQKfeEeO9ncsb8lV4WA" aggregation="composite" association="_gDD_wKfeEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_g0RaQKfeEeO9ncsb8lV4WA" name="video camera" type="_RT4OgKfeEeO9ncsb8lV4WA" aggregation="composite" association="_g0O-AKfeEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_hpGJcKfeEeO9ncsb8lV4WA" name="storage" type="_XjEUoKfeEeO9ncsb8lV4WA" aggregation="composite" association="_hpEUQKfeEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_PV-UMKfaEeO9ncsb8lV4WA" name="Driver"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Ot0yQKfeEeO9ncsb8lV4WA" name="UI"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RT4OgKfeEeO9ncsb8lV4WA" name="Video Camera"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XjEUoKfeEeO9ncsb8lV4WA" name="Storage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Dk5ygKfdEeO9ncsb8lV4WA" name="Association5" memberEnd="_Dk7nsKfdEeO9ncsb8lV4WA _Dk7nsafdEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dk7AoKfdEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dk7AoafdEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Dk7nsafdEeO9ncsb8lV4WA" name="environment" type="_HroZIKeiEeO9ncsb8lV4WA" association="_Dk5ygKfdEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_FIS34KfdEeO9ncsb8lV4WA" name="Association6" memberEnd="_FIVUIKfdEeO9ncsb8lV4WA _FIV7MKfdEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FIUGAKfdEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FIUtEKfdEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_FIV7MKfdEeO9ncsb8lV4WA" name="environment" type="_HroZIKeiEeO9ncsb8lV4WA" association="_FIS34KfdEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fFSv8KfeEeO9ncsb8lV4WA" name="Association7" memberEnd="_fFVMMKfeEeO9ncsb8lV4WA _fFVMMafeEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fFUlIKfeEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fFUlIafeEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_fFVMMafeEeO9ncsb8lV4WA" name="recording domain" type="_F7bFUKfaEeO9ncsb8lV4WA" association="_fFSv8KfeEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_gDD_wKfeEeO9ncsb8lV4WA" name="Association8" memberEnd="_gDF08afeEeO9ncsb8lV4WA _gDGcAKfeEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gDFN4KfeEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gDF08KfeEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_gDGcAKfeEeO9ncsb8lV4WA" name="recording domain" type="_F7bFUKfaEeO9ncsb8lV4WA" association="_gDD_wKfeEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_g0O-AKfeEeO9ncsb8lV4WA" name="Association9" memberEnd="_g0RaQKfeEeO9ncsb8lV4WA _g0SBUKfeEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g0QzMKfeEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g0QzMafeEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_g0SBUKfeEeO9ncsb8lV4WA" name="recording domain" type="_F7bFUKfaEeO9ncsb8lV4WA" association="_g0O-AKfeEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_hpEUQKfeEeO9ncsb8lV4WA" name="Association10" memberEnd="_hpGJcKfeEeO9ncsb8lV4WA _hpGJcafeEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hpFiYKfeEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hpFiYafeEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hpGJcafeEeO9ncsb8lV4WA" name="recording domain" type="_F7bFUKfaEeO9ncsb8lV4WA" association="_hpEUQKfeEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_u__VQKfiEeO9ncsb8lV4WA" name="Computer Vision Domain">
+          <packagedElement xmi:type="uml:Class" xmi:id="_19TssKfiEeO9ncsb8lV4WA" name="Computer Vision Domain">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_E05zEKfjEeO9ncsb8lV4WA" name="object" type="_5983oKfiEeO9ncsb8lV4WA" aggregation="composite" association="_E04k8KfjEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_GSX2oafjEeO9ncsb8lV4WA" name="object identification" type="_9fUsoKfiEeO9ncsb8lV4WA" aggregation="composite" association="_GSWogKfjEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_LEapUafjEeO9ncsb8lV4WA" name="data processing" type="_BvdFEKfjEeO9ncsb8lV4WA" aggregation="composite" association="_LEY0IKfjEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_5983oKfiEeO9ncsb8lV4WA" name="Object"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9fUsoKfiEeO9ncsb8lV4WA" name="Object Identification"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BvdFEKfjEeO9ncsb8lV4WA" name="Data Processing"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_iEwtkKflEeO9ncsb8lV4WA" name="Association" memberEnd="_iEzJ0KflEeO9ncsb8lV4WA _iEzJ0aflEeO9ncsb8lV4WA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iEx7sKflEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iEyiwKflEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_iEzJ0aflEeO9ncsb8lV4WA" name="connectivity domain" type="_DzYZwKflEeO9ncsb8lV4WA" association="_iEwtkKflEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jTa5EKflEeO9ncsb8lV4WA" name="Association1" memberEnd="_jTcuQaflEeO9ncsb8lV4WA _jTdVUKflEeO9ncsb8lV4WA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jTcHMKflEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jTcuQKflEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jTdVUKflEeO9ncsb8lV4WA" name="connectivity domain" type="_DzYZwKflEeO9ncsb8lV4WA" association="_jTa5EKflEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jsW9gKflEeO9ncsb8lV4WA" name="Association2" memberEnd="_jsZZwKflEeO9ncsb8lV4WA _jsaA0KflEeO9ncsb8lV4WA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsYysKflEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsYysaflEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jsaA0KflEeO9ncsb8lV4WA" name="connectivity domain" type="_DzYZwKflEeO9ncsb8lV4WA" association="_jsW9gKflEeO9ncsb8lV4WA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_E04k8KfjEeO9ncsb8lV4WA" name="Association11" memberEnd="_E05zEKfjEeO9ncsb8lV4WA _E05zEafjEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E05MAKfjEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E05MAafjEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_E05zEafjEeO9ncsb8lV4WA" name="computer vision domain" type="_19TssKfiEeO9ncsb8lV4WA" association="_E04k8KfjEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GSWogKfjEeO9ncsb8lV4WA" name="Association12" memberEnd="_GSX2oafjEeO9ncsb8lV4WA _GSX2oqfjEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GSXPkKfjEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GSX2oKfjEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GSX2oqfjEeO9ncsb8lV4WA" name="computer vision domain" type="_19TssKfiEeO9ncsb8lV4WA" association="_GSWogKfjEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_LEY0IKfjEeO9ncsb8lV4WA" name="Association13" memberEnd="_LEapUafjEeO9ncsb8lV4WA _LEbQYKfjEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LEaCQKfjEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LEapUKfjEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_LEbQYKfjEeO9ncsb8lV4WA" name="computer vision domain" type="_19TssKfiEeO9ncsb8lV4WA" association="_LEY0IKfjEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_8thKUKfkEeO9ncsb8lV4WA" name="Connectivity Domain">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DzYZwKflEeO9ncsb8lV4WA" name="Connectivity Domain">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_iEzJ0KflEeO9ncsb8lV4WA" name="local storage" type="_YPyMgKflEeO9ncsb8lV4WA" aggregation="composite" association="_iEwtkKflEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_jTcuQaflEeO9ncsb8lV4WA" name="connection" type="_JwAJMKflEeO9ncsb8lV4WA" aggregation="composite" association="_jTa5EKflEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_jsZZwKflEeO9ncsb8lV4WA" name="cloud account" type="_ckVx8KflEeO9ncsb8lV4WA" aggregation="composite" association="_jsW9gKflEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JwAJMKflEeO9ncsb8lV4WA" name="Secure Connection"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YPyMgKflEeO9ncsb8lV4WA" name="Local Storage"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ckVx8KflEeO9ncsb8lV4WA" name="Cloud Account"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_rEEgAKfnEeO9ncsb8lV4WA" name="Collaborative Domain">
+          <packagedElement xmi:type="uml:Actor" xmi:id="_thOe8KfnEeO9ncsb8lV4WA" name="XReal Users"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xEkp4KfnEeO9ncsb8lV4WA" name="Collaborative Domain">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dR1pwKfoEeO9ncsb8lV4WA" name="xreal users" type="_thOe8KfnEeO9ncsb8lV4WA" aggregation="composite" association="_dRzNgKfoEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_eaTtsKfoEeO9ncsb8lV4WA" name="data mining engine" type="_K1itkKfoEeO9ncsb8lV4WA" aggregation="composite" association="_eaRRcKfoEeO9ncsb8lV4WA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ilpswKfoEeO9ncsb8lV4WA" name="authorities" type="_bJqcUKfoEeO9ncsb8lV4WA" aggregation="composite" association="_ilnQgKfoEeO9ncsb8lV4WA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_K1itkKfoEeO9ncsb8lV4WA" name="Data Mining Engine"/>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_bJqcUKfoEeO9ncsb8lV4WA" name="Authorities"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_dRzNgKfoEeO9ncsb8lV4WA" name="Association14" memberEnd="_dR1pwKfoEeO9ncsb8lV4WA _dR2Q0KfoEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dR0boKfoEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR1CsKfoEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dR2Q0KfoEeO9ncsb8lV4WA" name="collaborative domain" type="_xEkp4KfnEeO9ncsb8lV4WA" association="_dRzNgKfoEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_eaRRcKfoEeO9ncsb8lV4WA" name="Association15" memberEnd="_eaTtsKfoEeO9ncsb8lV4WA _eaTtsafoEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eaSfkKfoEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eaTGoKfoEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_eaTtsafoEeO9ncsb8lV4WA" name="collaborative domain" type="_xEkp4KfnEeO9ncsb8lV4WA" association="_eaRRcKfoEeO9ncsb8lV4WA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ilnQgKfoEeO9ncsb8lV4WA" name="Association16" memberEnd="_ilpswKfoEeO9ncsb8lV4WA _ilqT0KfoEeO9ncsb8lV4WA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iloeoKfoEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilpFsKfoEeO9ncsb8lV4WA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ilqT0KfoEeO9ncsb8lV4WA" name="collaborative domain" type="_xEkp4KfnEeO9ncsb8lV4WA" association="_ilnQgKfoEeO9ncsb8lV4WA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uT41oKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uT41oaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uat2YKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uat2YaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uaudcKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uaudcaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uaudcqPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uavEgKPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uavEgaPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uavEgqPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uavrkKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uavrkaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uawSoKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uawSoaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uaw5sKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uaw5saPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uaxgwKPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uaxgwaPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uayH0KPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uayH0aPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uayH0qPvEeObPb7eqXVN1w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uayu4KPvEeObPb7eqXVN1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_xN-bYKSjEeOKeOccZVrC1Q" text="All UI elements should be designed with the objective to draw the least amount of attention for the minimum period of time spent of interacting." id="REQ_UF_V02R01" base_Class="_xMaVIKSjEeOKeOccZVrC1Q"/>
+  <Requirements:Requirement xmi:id="_2vNLIKSqEeO3keThfj9tqw" text="Overall processing time, from the moment a scene record is triggered up to the moment the data resulting from object identification shall always keep at minimum." id="REQ_CPERF_V02R01" base_Class="_2tPcQKSqEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_ZsE5gKSyEeO3keThfj9tqw" text="Support system of the video camera needs to be compatible with the smartphone of the user." id="REQ_ERG_V02R01" base_Class="_ZriG8KSyEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_fTQkcKSyEeO3keThfj9tqw" text="Storage will be divided into local and cloud storage, accessible from client in mobile or desktop." id="REQ_MA_V02R01" base_Class="_fSyqYKSyEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_8hVoMKSyEeO3keThfj9tqw" text="Upon an automatic trigger, connectivity from the client application to the cloud shuold be instantanous and reliable." id="REQ_CC_V02R01" base_Class="_8g2gAKSyEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_iemCkKSzEeO3keThfj9tqw" text="Data generated by the user will be encrypted and kept private in the personal account of each user." id="REQ_UDD_V02R01" base_Class="_ieHhcKSzEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_KgJagKS1EeO3keThfj9tqw" text="Environmental variables should be taken into account." id="REQ_VIC_V02R01" base_Class="_KfsukKS1EeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_waZqkKS9EeO3keThfj9tqw" text="Controls in the screen need to be accessible all the time." id="REQ_UF_V02R01_UI01" base_Class="_wZ7wgKS9EeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_CYA_UKTBEeO3keThfj9tqw" text="Application can only run in four different modes, and user needs to be able to switch them any moment." id="REQ_UF_V02R01_UI02" base_Class="_CXieMKTBEeO3keThfj9tqw"/>
+  <Requirements:DeriveReqt xmi:id="_E8BNIKTBEeO3keThfj9tqw" base_Abstraction="_E7HOMKTBEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_Ov9MYKTBEeO3keThfj9tqw" text="The user should be able to select among three different modes of usage of his/her bandwith, provided by the mobilpublic, mobile operator: Economic, Full or Auto." id="REQ_UF_V02R01_UI03" base_Class="_OvggcKTBEeO3keThfj9tqw"/>
+  <Requirements:DeriveReqt xmi:id="_4_21wKTDEeO3keThfj9tqw" base_Abstraction="_4_dNIKTDEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_6qvNwKTEEeO3keThfj9tqw" text="There must be a visualization of the nearest Jarvis Cam users, with the option to filter by range in km, availability to request help or request for help." id="REQ_UF_V02R01_MAP01" base_Class="_6qR6wKTEEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_OSG18KTFEeO3keThfj9tqw" text="An Intentional Trigger requires the system to recognize the alert call via hand gestures or voice or, in the simples way, a big button in the screen to activate the recording of the scene." id="REQ_UF_V02R01_IT01" base_Class="_ORlRgKTFEeO3keThfj9tqw"/>
+  <Requirements:Requirement xmi:id="_m7z3oKYaEeO40syU7gHtvA" text="Record 5 sec video at maximum FPS of the HW, encode it to H.264 format and store it in local memory." id="REQ_CPERF_V02R01_01" base_Class="_m5T9QKYaEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_No2TsKYcEeO40syU7gHtvA" text="ANPR will be performed with single lens camera, Android based or iOS based.Detection of a minimum of 1 Number Plates in front of the vehicle." id="REQ_CPERF_V02R01_06" base_Class="_NoYZoKYcEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_bIoSkKYcEeO40syU7gHtvA" text="To calculate a hazard likelihood, coming from parameters Sudden Braking, Rapid Acceleration and Swerving. Given the likelihood, a threshold will decide to trigger the Video-camera for 5 sec recording. If the decision to record is taken, a timestamp with GPS data is logged, tagged with an ID and locally stored in memory." id="REQ_CPERF_V02R01_03" base_Class="_bIIjUKYcEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_pxQv4KYcEeO40syU7gHtvA" text="Running in the background, Detect WiFi Connectivity and Request to make Upload-Backup of New Videos. If request is accepted, proceed to upload all the recently recorded videos and Object Identification Dataset to the Personal Account in the XReal Cloud. " id="REQ_CPERF_V02R01_04" base_Class="_pwyOwKYcEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="__vhW8KYcEeO40syU7gHtvA" text="Using the historic Object Identification Datasets stored along a specific time period, perform a Driving Pattern for each user, mapped to the most popular roads (GPS). The result could be used for future optimization of the Automatic Trigger Feature." id="REQ_CPERF_V02R01_05" base_Class="__vCOwKYcEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_ZlB8YKYdEeO40syU7gHtvA" text="Figures of pedestrians right in front of the vehicle (same lane of  the road) will be identified. No environmental conditions considered." id="REQ_CPERF_V02R01_07" base_Class="_ZkkpYKYdEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_d1qEEKYdEeO40syU7gHtvA" text="All object identification tasks are designed to execute in mobile paltforms, within the minimum period of time where an alert needs to be reported." id="REQ_CPERF_V02R01_02" base_Class="_d1MxEKYdEeO40syU7gHtvA"/>
+  <Requirements:DeriveReqt xmi:id="_F3as0KYeEeO40syU7gHtvA" base_Abstraction="_F2aAMKYeEeO40syU7gHtvA"/>
+  <Requirements:DeriveReqt xmi:id="_HUbdYKYeEeO40syU7gHtvA" base_Abstraction="_HUAmoKYeEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_4XJwUKYeEeO40syU7gHtvA" text="Using HW-based Android sensors, accelerometer and gyroscope, calculate Sudden Braking and Rapid Acceleration, and Swerving." id="REQ_CPERF_V02R01_08" base_Class="_4WuSgKYeEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_Epd2gKYfEeO40syU7gHtvA" text="Using Acceleration, Throttle position, Vehicle Speed and Braking from Bluetooth Receiver, calculate the Sudden Braking, Rapid Acceleration and Steep Swerving. The Bluetooth Transmitter is an additional Hardware device plugged to the Vehicle's OBD2 port." id="REQ_CPERF_V02R01_09" base_Class="_EpC_wKYfEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_SugekKYfEeO40syU7gHtvA" text="Using HW-based iOS sensors, accelerometer and gyroscope, calculate Sudden Braking and Rapid Acceleration, and Swerving." id="REQ_CPERF_V02R01_10" base_Class="_SuB9cKYfEeO40syU7gHtvA"/>
+  <Requirements:DeriveReqt xmi:id="_elyOkKYfEeO40syU7gHtvA" base_Abstraction="_elVioKYfEeO40syU7gHtvA"/>
+  <Requirements:DeriveReqt xmi:id="_lcJpcKYfEeO40syU7gHtvA" base_Abstraction="_lbtkkKYfEeO40syU7gHtvA"/>
+  <Requirements:DeriveReqt xmi:id="_pXp1sKYfEeO40syU7gHtvA" base_Abstraction="_pXOX4KYfEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_P1C2wKYiEeO40syU7gHtvA" text="The historic media recorded by the user will be kept into a personal account, under encryption. The minimum size will be 2GB and more GB can be purchased." id="REQ_MA_V02R01_01" base_Class="_P0gEMKYiEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_uAdQAKYjEeO40syU7gHtvA" text="Local Storage will be limited by the mobile device. All content will be uploaded to the cloud as soon as it is detected a WiFi connection." id="REQ_MA_V02R01_02" base_Class="_t_8SoKYjEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_D1__8KYkEeO40syU7gHtvA" text="After the video recording at maximum FPS of 5 sec, if Data Plan Selector=Economic, tag the video, GPS location, timestamp and Numer Plate with a unique ID. This ID will represent the Object Identification Dataset. Only the GPS location, timestamp and Number Plate will be uploadad with available connectivity. Priority will be given to WiFi, if not available it will be used LTE, 3G, GPRS, in that order." id="REQ_CC_V02R01_01" base_Class="_D1gQsKYkEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_N71AcKYkEeO40syU7gHtvA" text="After the video recording at maximum FPS of 5 sec, if Data Plan Selector=Full, tag the video, GPS location, timestamp and Number Plate with a unique ID. This ID will represent the Object Identification Dataset. The complete Object Identification Dataset will be uploaded with available connectivity. Priority will be given to WiFi, if not available it will be used LTE, 3G, GPRS, in that order." id="REQ_CC_V02R01_02" base_Class="_N7YUgKYkEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_Q6XYsKYlEeO40syU7gHtvA" text="In case of a stolen car, user is able to login his account from any platform (mobile or desktop) and request to search across all XReal users for where was last seen his Number Plate. The search is executed in the latest results of all accounts in the area. Both area and period of time for search can be input by the requestor." id="REQ_MA_V02R01_03" base_Class="_Q5764KYlEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_WbPK0KYmEeO40syU7gHtvA" text="From all the data generated by the user, only the number plates will be availble to be searched by external users, upon the request of help. The rest, including videos, will be available only to the user." id="REQ_UDD_V02R01_01" base_Class="_Waye4KYmEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_UwBwwKYnEeO40syU7gHtvA" text="All data is identified by user with at least one car registered under his/her name." id="REQ_UDD_V02R01_02" base_Class="_UvnhEKYnEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_7TlWIKYnEeO40syU7gHtvA" text="Infrared light can be processed in order to read number plates at night." id="REQ_VIC_V02R01_02" base_Class="_7TGN8KYnEeO40syU7gHtvA"/>
+  <Requirements:Requirement xmi:id="_B_12oKeEEeO9ncsb8lV4WA" text="For the case of Release 1.0  (based in the Smartphone), the camera processing will take advantage of the existing implementations of the hardware in android to filter the shaky images. Moreover, the video at max. FPS is used to chose the best of the images among them." id="REQ_VIC_V02R01_01" base_Class="_B-UzsKeEEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_6bYEAKehEeO9ncsb8lV4WA" base_Class="_6bR9YKehEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_HrqOUKeiEeO9ncsb8lV4WA" base_Class="_HroZIKeiEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_-y7skKfBEeO9ncsb8lV4WA" base_Class="_-y53YKfBEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_Ill5cKfCEeO9ncsb8lV4WA" base_Class="_IlkEQKfCEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_jp7LAKfZEeO9ncsb8lV4WA" base_Class="_jp5V0KfZEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_F7cTcKfaEeO9ncsb8lV4WA" base_Class="_F7bFUKfaEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_oTf20KfcEeO9ncsb8lV4WA" base_Class="_oTeBoKfcEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_qDt3QKfcEeO9ncsb8lV4WA" base_Class="_qDspIKfcEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_Ot2AYKfeEeO9ncsb8lV4WA" base_Class="_Ot0yQKfeEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_RT5coKfeEeO9ncsb8lV4WA" base_Class="_RT4OgKfeEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_XjGJ0KfeEeO9ncsb8lV4WA" base_Class="_XjEUoKfeEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_19WI8KfiEeO9ncsb8lV4WA" base_Class="_19TssKfiEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_9fV6wKfiEeO9ncsb8lV4WA" base_Class="_9fUsoKfiEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_BveTMKfjEeO9ncsb8lV4WA" base_Class="_BvdFEKfjEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_DzaO8KflEeO9ncsb8lV4WA" base_Class="_DzYZwKflEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_JwB-YKflEeO9ncsb8lV4WA" base_Class="_JwAJMKflEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_YPzaoKflEeO9ncsb8lV4WA" base_Class="_YPyMgKflEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_ckXnIKflEeO9ncsb8lV4WA" base_Class="_ckVx8KflEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_xEmfEKfnEeO9ncsb8lV4WA" base_Class="_xEkp4KfnEeO9ncsb8lV4WA"/>
+  <Blocks:Block xmi:id="_K1kiwKfoEeO9ncsb8lV4WA" base_Class="_K1itkKfoEeO9ncsb8lV4WA"/>
+</xmi:XMI>
