@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="26dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="20dp"
         android:text="Take a video" />
 
@@ -21,16 +21,7 @@
         android:layout_alignBaseline="@+id/button4"
         android:layout_alignBottom="@+id/button4"
         android:layout_alignLeft="@+id/button1"
-        android:text="SaveData" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="300dp"
-        android:text="StopData" />
+        android:text="SaveSensor" />
 
     <Button
         android:id="@+id/button2"
@@ -48,7 +39,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="300dp"
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="46dp"
+        android:text="StopSensor" />
    
 </RelativeLayout>

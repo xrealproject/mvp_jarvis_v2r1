@@ -226,7 +226,8 @@ public class MainActivity extends Activity implements OnClickListener, SensorEve
                 magneticField[1] = event.values[1];
                 magneticField[2] = event.values[2];
             }
-
+            
+            
             if (isFirstSet) {
                 startTime = System.currentTimeMillis();
                 isFirstSet = false;
