@@ -97,6 +97,8 @@ public class MainActivity extends Activity implements OnClickListener {
         }
         
 		intent.putExtra(MediaStore.EXTRA_OUTPUT, mUri);
+		intent.putExtra(MediaStore.EXTRA_DURATION_LIMIT, 5);
+		intent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1);
 		startActivityForResult(intent, REQ_CODE_TAKE_VIDEO);
 
 	}
