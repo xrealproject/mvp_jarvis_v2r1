@@ -25,24 +25,63 @@
     <availablePage>
       <emfPageIdentifier href="model2.notation#_DNGDkKfqEeO9ncsb8lV4WA"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_wL3nMMWqEeOKLK8rl-pfkg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_7qcyAMZoEeOIINlBTIH56g"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_SzQR4MZvEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_bTIw0MaGEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_fFBuEMaGEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_hEiHsMaGEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_hiVokMaHEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_jyH54MaHEeO_OssxRTUClg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_vurLcMaHEeO_OssxRTUClg"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model2.notation#_0wd8oKShEeOKeOccZVrC1Q"/>
-        </children>
-        <children>
           <emfPageIdentifier href="model2.notation#_gBcDAKd5EeO9ncsb8lV4WA"/>
         </children>
         <children>
-          <emfPageIdentifier href="model2.notation#_772c0KfkEeO9ncsb8lV4WA"/>
+          <emfPageIdentifier href="model2.notation#_CfH9kKfaEeO9ncsb8lV4WA"/>
         </children>
         <children>
-          <emfPageIdentifier href="model2.notation#_DYDdwKfnEeO9ncsb8lV4WA"/>
+          <emfPageIdentifier href="model2.notation#_bTIw0MaGEeO_OssxRTUClg"/>
         </children>
         <children>
-          <emfPageIdentifier href="model2.notation#_DNGDkKfqEeO9ncsb8lV4WA"/>
+          <emfPageIdentifier href="model2.notation#_fFBuEMaGEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_hEiHsMaGEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_Uu8KsKffEeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_hiVokMaHEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_jyH54MaHEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_vurLcMaHEeO_OssxRTUClg"/>
         </children>
       </children>
     </windows>
