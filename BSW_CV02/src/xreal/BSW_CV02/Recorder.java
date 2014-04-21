@@ -42,7 +42,7 @@ public class Recorder extends Activity implements SurfaceHolder.Callback {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		prContext = this.getApplicationContext();
-		setContentView(R.layout.main);
+		setContentView(R.layout.activity_recorder);
 		createDirIfNotExist(cVideoFilePath);
 		prSurfaceView = (SurfaceView) findViewById(R.id.surface_camera);
 		prStartBtn = (Button) findViewById(R.id.main_btn1);
