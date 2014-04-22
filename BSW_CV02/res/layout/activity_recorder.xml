@@ -13,7 +13,7 @@
 				  	android:text="Start"
 				  	style="@style/btn_bottommenu"
 					/>	
-				
+
 				<Button android:id="@+id/main_btn3" 
 				  	android:text="All"
 				  	android:visibility="gone"
@@ -32,5 +32,5 @@
 		android:layout_above="@id/main_btns"
 		>
 	</SurfaceView>
-	
+
 </RelativeLayout>
