@@ -5,7 +5,7 @@
       <emfPageIdentifier href="model2.notation#_0wd8oKShEeOKeOccZVrC1Q"/>
     </availablePage>
     <availablePage>
-      <emfPageIdentifier href="model2.notation#_gBcDAKd5EeO9ncsb8lV4WA"/>
+      <emfPageIdentifier href="model2.notation"/>
     </availablePage>
     <availablePage>
       <emfPageIdentifier href="model2.notation#_Sf1iYKd9EeO9ncsb8lV4WA"/>
@@ -56,12 +56,6 @@
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
-        <children>
-          <emfPageIdentifier href="model2.notation#_gBcDAKd5EeO9ncsb8lV4WA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model2.notation#_CfH9kKfaEeO9ncsb8lV4WA"/>
-        </children>
         <children>
           <emfPageIdentifier href="model2.notation#_bTIw0MaGEeO_OssxRTUClg"/>
         </children>

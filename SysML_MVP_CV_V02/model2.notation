@@ -2100,8 +2100,7 @@
         <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
       </axis>
     </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_gBcDBad5EeO9ncsb8lV4WA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-  </nattable:Table>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_gBcDBad5EeO9ncsb8lV4WA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/></nattable:Table>
   <notation:Diagram xmi:id="_Sf1iYKd9EeO9ncsb8lV4WA" type="BlockDefinition" name="bdd Detection Domain" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_0Cw-gKfVEeO9ncsb8lV4WA" type="2007" fontName="Ubuntu" fontHeight="11" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0CyMoKfVEeO9ncsb8lV4WA" source="ShadowFigure">
@@ -5826,10 +5825,6 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_hEiHxsaGEeO_OssxRTUClg" type="7004">
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hEiHx8aGEeO_OssxRTUClg"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_V9WVoMmsEeOyKdhF6A45uA" visible="false" type="compartment_shape_display">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_V9W8sMmsEeOyKdhF6A45uA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V9W8scmsEeOyKdhF6A45uA"/>
       </children>
       <element xmi:type="uml:Activity" href="model2.uml#_gegCcMaGEeO_OssxRTUClg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hEiHyMaGEeO_OssxRTUClg"/>

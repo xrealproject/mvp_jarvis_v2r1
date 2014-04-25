@@ -332,6 +332,7 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_Ot0yQKfeEeO9ncsb8lV4WA" name="UI"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_RT4OgKfeEeO9ncsb8lV4WA" name="Video Camera"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_XjEUoKfeEeO9ncsb8lV4WA" name="Storage"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Jh-H4My-EeO5uZoRnPJSLg" name="Block1"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_Dk5ygKfdEeO9ncsb8lV4WA" name="Association5" memberEnd="_Dk7nsKfdEeO9ncsb8lV4WA _Dk7nsafdEeO9ncsb8lV4WA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dk7AoKfdEeO9ncsb8lV4WA" source="org.eclipse.papyrus">
@@ -619,4 +620,5 @@
   <PortAndFlows:FlowPort xmi:id="_OOnisMZnEeOIINlBTIH56g" base_Port="_OOlGcMZnEeOIINlBTIH56g" direction="out"/>
   <PortAndFlows:FlowPort xmi:id="_EpipYMZoEeOIINlBTIH56g" base_Port="_Epg0MMZoEeOIINlBTIH56g" direction="out"/>
   <PortAndFlows:FlowPort xmi:id="_FvXB8MZoEeOIINlBTIH56g" base_Port="_FvVMwMZoEeOIINlBTIH56g" direction="out"/>
+  <Blocks:Block xmi:id="_JiH44My-EeO5uZoRnPJSLg" base_Class="_Jh-H4My-EeO5uZoRnPJSLg"/>
 </xmi:XMI>
