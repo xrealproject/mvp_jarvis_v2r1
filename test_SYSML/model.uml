@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:PortAndFlows="http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows">
   <uml:Model xmi:id="_a-BtIM6BEeOVrfnZ-qY01A" name="SysMLmodel">
-    <packagedElement xmi:type="uml:Class" xmi:id="_bX3JcM6BEeOVrfnZ-qY01A" name="Block1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_bX3JcM6BEeOVrfnZ-qY01A" name="Computer Vision">
       <ownedAttribute xmi:id="_m__acM6SEeOVrfnZ-qY01A" name="part1" type="_ntEi4M6SEeOVrfnZ-qY01A" aggregation="composite" association="_ntc9YM6SEeOVrfnZ-qY01A"/>
       <ownedAttribute xmi:id="_opqG8M6SEeOVrfnZ-qY01A" name="part2" visibility="public" type="_9tEPUM6SEeOVrfnZ-qY01A" aggregation="composite" association="_9tGEgM6SEeOVrfnZ-qY01A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Gh8oM6SEeOVrfnZ-qY01A" value="1"/>
@@ -10,6 +10,98 @@
           <value xsi:nil="true"/>
         </defaultValue>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_rrAl0M6XEeO7rMHWrCqPIQ" name="part3" visibility="public" type="_uwSUsM6XEeO7rMHWrCqPIQ" aggregation="composite" association="_uwl2sM6XEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z3QOgM6XEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z3WVIM6XEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_z3jJcM6XEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0Co_IM6XEeO7rMHWrCqPIQ" name="part4" visibility="public" type="_19PqoM6XEeO7rMHWrCqPIQ" aggregation="composite" association="_19T8EM6XEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2gzDoM6XEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2g040M6XEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_2hCUMM6XEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_36CHcM6XEeO7rMHWrCqPIQ" name="part5" visibility="public" type="_5aWDoM6XEeO7rMHWrCqPIQ" aggregation="composite" association="_5anwcM6XEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6WrwEM6XEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6Wx2sM6XEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_6W5ygM6XEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_-Uu6AM6XEeO7rMHWrCqPIQ" name="part6" visibility="public" type="_FU5KEM6YEeO7rMHWrCqPIQ" aggregation="composite" association="_FU-CkM6YEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F-Q3MM6YEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F-Xk4M6YEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_F-gHwM6YEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HFXpMM6YEeO7rMHWrCqPIQ" name="part7" visibility="public" type="_Id4UQM6YEeO7rMHWrCqPIQ" aggregation="composite" association="_IeBeMM6YEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JTOA0M6YEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JTUHcM6YEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_JTfGkM6YEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_URJG8M6YEeO7rMHWrCqPIQ" name="selected_frames" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VaX_4M6YEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VabqQM6YEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_VaiX8M6YEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_hrZQIM6ZEeO7rMHWrCqPIQ" name="features" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ijMa0M6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ijO3EM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_ijbEUM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CWWTgM7TEeO7rMHWrCqPIQ" name="part8" visibility="public" type="_DwZ2sM7TEeO7rMHWrCqPIQ" aggregation="composite" association="_Dwc6AM7TEeO7rMHWrCqPIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D96HMM7TEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D978YM7TEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_D9-_sM7TEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_lGmywM6ZEeO7rMHWrCqPIQ" name="connector1">
+        <end xmi:id="_lGwjwM6ZEeO7rMHWrCqPIQ" role="_URJG8M6YEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_lGxK0M6ZEeO7rMHWrCqPIQ" partWithPort="_rrAl0M6XEeO7rMHWrCqPIQ" role="_XK8loM6YEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_l8FpQM6ZEeO7rMHWrCqPIQ" name="connector2">
+        <end xmi:id="_l8LI0M6ZEeO7rMHWrCqPIQ" partWithPort="_rrAl0M6XEeO7rMHWrCqPIQ" role="_JUdhgM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_l8Lv4M6ZEeO7rMHWrCqPIQ" partWithPort="_0Co_IM6XEeO7rMHWrCqPIQ" role="_6sbhIM6YEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_mf8kQM6ZEeO7rMHWrCqPIQ" name="connector3">
+        <end xmi:id="_mgBcwM6ZEeO7rMHWrCqPIQ" partWithPort="_0Co_IM6XEeO7rMHWrCqPIQ" role="_OIIE0M6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_mgHjYM6ZEeO7rMHWrCqPIQ" partWithPort="_36CHcM6XEeO7rMHWrCqPIQ" role="_Rusi4M6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_nSusEM6ZEeO7rMHWrCqPIQ" name="connector4">
+        <end xmi:id="_nTJi0M6ZEeO7rMHWrCqPIQ" partWithPort="_36CHcM6XEeO7rMHWrCqPIQ" role="_ToFtcM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_nTKJ4M6ZEeO7rMHWrCqPIQ" partWithPort="_-Uu6AM6XEeO7rMHWrCqPIQ" role="_YByRkM6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_n5AB4M6ZEeO7rMHWrCqPIQ" name="connector5">
+        <end xmi:id="_n5E6YM6ZEeO7rMHWrCqPIQ" partWithPort="_-Uu6AM6XEeO7rMHWrCqPIQ" role="_aDo0kM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_n5GIgM6ZEeO7rMHWrCqPIQ" partWithPort="_HFXpMM6YEeO7rMHWrCqPIQ" role="_cWnj0M6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_ofNGQM6ZEeO7rMHWrCqPIQ" name="connector6">
+        <end xmi:id="_ofn9AM6ZEeO7rMHWrCqPIQ" partWithPort="_HFXpMM6YEeO7rMHWrCqPIQ" role="_eP3kcM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_ofokEM6ZEeO7rMHWrCqPIQ" role="_hrZQIM6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_JTP0MM7TEeO7rMHWrCqPIQ" name="connector7">
+        <end xmi:id="_JTQbQM7TEeO7rMHWrCqPIQ" partWithPort="_-Uu6AM6XEeO7rMHWrCqPIQ" role="_aDo0kM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_JTRCUM7TEeO7rMHWrCqPIQ" partWithPort="_CWWTgM7TEeO7rMHWrCqPIQ" role="_FNopsM7TEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_J1rL0M7TEeO7rMHWrCqPIQ" name="connector8">
+        <end xmi:id="_J1tBAM7TEeO7rMHWrCqPIQ" partWithPort="_36CHcM6XEeO7rMHWrCqPIQ" role="_ToFtcM6ZEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_J1tBAc7TEeO7rMHWrCqPIQ" partWithPort="_-Uu6AM6XEeO7rMHWrCqPIQ" role="_YByRkM6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_L6Su8M7TEeO7rMHWrCqPIQ" name="connector9">
+        <end xmi:id="_L6T9EM7TEeO7rMHWrCqPIQ" partWithPort="_CWWTgM7TEeO7rMHWrCqPIQ" role="_KgKTQM7TEeO7rMHWrCqPIQ"/>
+        <end xmi:id="_L6UkIM7TEeO7rMHWrCqPIQ" partWithPort="_HFXpMM6YEeO7rMHWrCqPIQ" role="_cWnj0M6ZEeO7rMHWrCqPIQ"/>
+      </ownedConnector>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ntEi4M6SEeOVrfnZ-qY01A" name="Block2"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_ntc9YM6SEeOVrfnZ-qY01A" name="Association1" memberEnd="_m__acM6SEeOVrfnZ-qY01A _ntc9Y86SEeOVrfnZ-qY01A">
@@ -24,6 +116,138 @@
         <details xmi:id="_9tGEgs6SEeOVrfnZ-qY01A" key="nature" value="SysML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:id="_9tGEg86SEeOVrfnZ-qY01A" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_9tGEgM6SEeOVrfnZ-qY01A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uwSUsM6XEeO7rMHWrCqPIQ" name="Clipping_deskewing">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_XK8loM6YEeO7rMHWrCqPIQ" name="selected_frames" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ygh4gM6YEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YgnYEM6YEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_YhGgQM6YEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_JUdhgM6ZEeO7rMHWrCqPIQ" name="clipped_sections" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K0FhMM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K0HWYM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_K0PSMM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uwl2sM6XEeO7rMHWrCqPIQ" name="Association3" memberEnd="_rrAl0M6XEeO7rMHWrCqPIQ _uwl2s86XEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_uwl2sc6XEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_uwl2ss6XEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_uwl2s86XEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_uwl2sM6XEeO7rMHWrCqPIQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_19PqoM6XEeO7rMHWrCqPIQ" name="heuristic_selection">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_6sbhIM6YEeO7rMHWrCqPIQ" name="clipped_sections" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_73JAwM6YEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_73N5QM6YEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_73SxwM6YEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_OIIE0M6ZEeO7rMHWrCqPIQ" name="plate_candidate" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qq6KoM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qq-cEM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_QrGX4M6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_19T8EM6XEeO7rMHWrCqPIQ" name="Association4" memberEnd="_0Co_IM6XEeO7rMHWrCqPIQ _19T8E86XEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_19T8Ec6XEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_19T8Es6XEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_19T8E86XEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_19T8EM6XEeO7rMHWrCqPIQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aWDoM6XEeO7rMHWrCqPIQ" name="segmentation">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Rusi4M6ZEeO7rMHWrCqPIQ" name="plate_candidate" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SfcqYM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Sfhi4M6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Sfo3oM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ToFtcM6ZEeO7rMHWrCqPIQ" name="characters_segments" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XiqsoM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XiyBYM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Xi5WIM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5anwcM6XEeO7rMHWrCqPIQ" name="Association5" memberEnd="_36CHcM6XEeO7rMHWrCqPIQ _5anwc86XEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_5anwcc6XEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_5anwcs6XEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_5anwc86XEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_5anwcM6XEeO7rMHWrCqPIQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FU5KEM6YEeO7rMHWrCqPIQ" name="Downsampling">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_YByRkM6ZEeO7rMHWrCqPIQ" name="characters_segments" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y4FAYM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y4HcoM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y4UQ8M6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_aDo0kM6ZEeO7rMHWrCqPIQ" name="norm_segments" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b1InYM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b1Nf4M6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_b1biUM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FU-CkM6YEeO7rMHWrCqPIQ" name="Association6" memberEnd="_-Uu6AM6XEeO7rMHWrCqPIQ _FU-Ck86YEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_FU-Ckc6YEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_FU-Cks6YEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_FU-Ck86YEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_FU-CkM6YEeO7rMHWrCqPIQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Id4UQM6YEeO7rMHWrCqPIQ" name="Feature_extraction">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_cWnj0M6ZEeO7rMHWrCqPIQ" name="norm_segments" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dJoVIM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dJvC0M6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_dJ5a4M6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_eP3kcM6ZEeO7rMHWrCqPIQ" name="features" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_grVhUM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_greEMM6ZEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_grmAAM6ZEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IeBeMM6YEeO7rMHWrCqPIQ" name="Association7" memberEnd="_HFXpMM6YEeO7rMHWrCqPIQ _IeBeM86YEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_IeBeMc6YEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_IeBeMs6YEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_IeBeM86YEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_IeBeMM6YEeO7rMHWrCqPIQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DwZ2sM7TEeO7rMHWrCqPIQ" name="Skeletonization">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_FNopsM7TEeO7rMHWrCqPIQ" name="norm_sections" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IZHuQM7TEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZJjcM7TEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_IZN04M7TEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_KgKTQM7TEeO7rMHWrCqPIQ" name="flowport1" visibility="public" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K_ukIM7TEeO7rMHWrCqPIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K_vyQM7TEeO7rMHWrCqPIQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_K_zcoM7TEeO7rMHWrCqPIQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Dwc6AM7TEeO7rMHWrCqPIQ" name="Association8" memberEnd="_CWWTgM7TEeO7rMHWrCqPIQ _Dwc6A87TEeO7rMHWrCqPIQ">
+      <eAnnotations xmi:id="_Dwc6Ac7TEeO7rMHWrCqPIQ" source="org.eclipse.papyrus">
+        <details xmi:id="_Dwc6As7TEeO7rMHWrCqPIQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_Dwc6A87TEeO7rMHWrCqPIQ" name="" type="_bX3JcM6BEeOVrfnZ-qY01A" association="_Dwc6AM7TEeO7rMHWrCqPIQ"/>
     </packagedElement>
     <profileApplication xmi:id="_bBURsM6BEeOVrfnZ-qY01A">
       <eAnnotations xmi:id="_bB1PEM6BEeOVrfnZ-qY01A" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -95,4 +319,24 @@
   <Blocks:Block xmi:id="_bYGaAM6BEeOVrfnZ-qY01A" base_Class="_bX3JcM6BEeOVrfnZ-qY01A"/>
   <Blocks:Block xmi:id="_ntINQM6SEeOVrfnZ-qY01A" base_Class="_ntEi4M6SEeOVrfnZ-qY01A"/>
   <Blocks:Block xmi:id="_9tE2YM6SEeOVrfnZ-qY01A" base_Class="_9tEPUM6SEeOVrfnZ-qY01A"/>
+  <Blocks:Block xmi:id="_uwYbUM6XEeO7rMHWrCqPIQ" base_Class="_uwSUsM6XEeO7rMHWrCqPIQ"/>
+  <Blocks:Block xmi:id="_19SG4M6XEeO7rMHWrCqPIQ" base_Class="_19PqoM6XEeO7rMHWrCqPIQ"/>
+  <Blocks:Block xmi:id="_5ajfAM6XEeO7rMHWrCqPIQ" base_Class="_5aWDoM6XEeO7rMHWrCqPIQ"/>
+  <Blocks:Block xmi:id="_FU80cM6YEeO7rMHWrCqPIQ" base_Class="_FU5KEM6YEeO7rMHWrCqPIQ"/>
+  <Blocks:Block xmi:id="_Id7-oM6YEeO7rMHWrCqPIQ" base_Class="_Id4UQM6YEeO7rMHWrCqPIQ"/>
+  <PortAndFlows:FlowPort xmi:id="_URNYYM6YEeO7rMHWrCqPIQ" base_Port="_URJG8M6YEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_XK9zwM6YEeO7rMHWrCqPIQ" base_Port="_XK8loM6YEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_6scIMM6YEeO7rMHWrCqPIQ" base_Port="_6sbhIM6YEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_JUfWsM6ZEeO7rMHWrCqPIQ" base_Port="_JUdhgM6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_OIJS8M6ZEeO7rMHWrCqPIQ" base_Port="_OIIE0M6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_RutxAM6ZEeO7rMHWrCqPIQ" base_Port="_Rusi4M6ZEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_ToHioM6ZEeO7rMHWrCqPIQ" base_Port="_ToFtcM6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_YB93wM6ZEeO7rMHWrCqPIQ" base_Port="_YByRkM6ZEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_aDuUIM6ZEeO7rMHWrCqPIQ" base_Port="_aDo0kM6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_cWr1QM6ZEeO7rMHWrCqPIQ" base_Port="_cWnj0M6ZEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_eP7O0M6ZEeO7rMHWrCqPIQ" base_Port="_eP3kcM6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_hrdhkM6ZEeO7rMHWrCqPIQ" base_Port="_hrZQIM6ZEeO7rMHWrCqPIQ" direction="out"/>
+  <Blocks:Block xmi:id="_DwadwM7TEeO7rMHWrCqPIQ" base_Class="_DwZ2sM7TEeO7rMHWrCqPIQ"/>
+  <PortAndFlows:FlowPort xmi:id="_FNp30M7TEeO7rMHWrCqPIQ" base_Port="_FNopsM7TEeO7rMHWrCqPIQ" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_KgLhYM7TEeO7rMHWrCqPIQ" base_Port="_KgKTQM7TEeO7rMHWrCqPIQ" direction="out"/>
 </xmi:XMI>
