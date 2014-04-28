@@ -12,9 +12,6 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model.notation#_bZe6EM6BEeOVrfnZ-qY01A"/>
-        </children>
-        <children>
           <emfPageIdentifier href="model.notation#_k136AM6XEeO7rMHWrCqPIQ"/>
         </children>
       </children>
