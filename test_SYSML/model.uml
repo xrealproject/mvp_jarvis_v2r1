@@ -102,7 +102,7 @@
         <end xmi:id="_L6T9EM7TEeO7rMHWrCqPIQ" partWithPort="_CWWTgM7TEeO7rMHWrCqPIQ" role="_KgKTQM7TEeO7rMHWrCqPIQ"/>
         <end xmi:id="_L6UkIM7TEeO7rMHWrCqPIQ" partWithPort="_HFXpMM6YEeO7rMHWrCqPIQ" role="_cWnj0M6ZEeO7rMHWrCqPIQ"/>
       </ownedConnector>
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_8j2VIM7tEeO-2raKzkB-ag" name="Activity1" node="_DIft4M7uEeO-2raKzkB-ag _EeTqQM7uEeO-2raKzkB-ag _dXTkIM7uEeO-2raKzkB-ag _1wadAM7uEeO-2raKzkB-ag _62V1AM7uEeO-2raKzkB-ag _E06-AM7vEeO-2raKzkB-ag _bCvEAM7vEeO-2raKzkB-ag _4jJ08M7vEeO-2raKzkB-ag _YephMM7wEeO-2raKzkB-ag _bG-1YM7wEeO-2raKzkB-ag _eWQ00M7wEeO-2raKzkB-ag _pFMcsM7wEeO-2raKzkB-ag _svlq0M7wEeO-2raKzkB-ag _yiwjUM7wEeO-2raKzkB-ag _2xXRwM7wEeO-2raKzkB-ag">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_8j2VIM7tEeO-2raKzkB-ag" name="Activity1" node="_DIft4M7uEeO-2raKzkB-ag _EeTqQM7uEeO-2raKzkB-ag _dXTkIM7uEeO-2raKzkB-ag _1wadAM7uEeO-2raKzkB-ag _62V1AM7uEeO-2raKzkB-ag _E06-AM7vEeO-2raKzkB-ag _bCvEAM7vEeO-2raKzkB-ag _4jJ08M7vEeO-2raKzkB-ag _YephMM7wEeO-2raKzkB-ag _bG-1YM7wEeO-2raKzkB-ag _eWQ00M7wEeO-2raKzkB-ag _pFMcsM7wEeO-2raKzkB-ag _svlq0M7wEeO-2raKzkB-ag _yiwjUM7wEeO-2raKzkB-ag _2xXRwM7wEeO-2raKzkB-ag _G-drIM70EeO-2raKzkB-ag">
         <edge xmi:type="uml:ControlFlow" xmi:id="_7OrxoM7wEeO-2raKzkB-ag" name="ControlFlow1" source="_DIft4M7uEeO-2raKzkB-ag" target="_EeTqQM7uEeO-2raKzkB-ag">
           <guard xmi:type="uml:LiteralBoolean" xmi:id="_7Os_wM7wEeO-2raKzkB-ag" value="true"/>
           <weight xmi:type="uml:LiteralInteger" xmi:id="_7Otm0M7wEeO-2raKzkB-ag"/>
@@ -163,11 +163,27 @@
           <guard xmi:type="uml:LiteralBoolean" xmi:id="_aIglgM7xEeO-2raKzkB-ag" value="true"/>
           <weight xmi:type="uml:LiteralInteger" xmi:id="_aIhMkM7xEeO-2raKzkB-ag"/>
         </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_SkhvUM70EeO-2raKzkB-ag" name="ControlFlow16" source="_EeTqQM7uEeO-2raKzkB-ag" target="_G-drIM70EeO-2raKzkB-ag">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_SkkLkM70EeO-2raKzkB-ag" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_SkkyoM70EeO-2raKzkB-ag"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_TksL0M70EeO-2raKzkB-ag" name="ControlFlow17" source="_G-drIM70EeO-2raKzkB-ag" target="_dXTkIM7uEeO-2raKzkB-ag">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_TktZ8M70EeO-2raKzkB-ag" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_TktZ8c70EeO-2raKzkB-ag"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_UYaHwM70EeO-2raKzkB-ag" name="ControlFlow18" source="_dXTkIM7uEeO-2raKzkB-ag" target="_1wadAM7uEeO-2raKzkB-ag">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_UYdLEM70EeO-2raKzkB-ag" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_UYdyIM70EeO-2raKzkB-ag"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_VWs8AM70EeO-2raKzkB-ag" name="ControlFlow19" source="_1wadAM7uEeO-2raKzkB-ag" target="_62V1AM7uEeO-2raKzkB-ag">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_VWuKIM70EeO-2raKzkB-ag" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_VWuKIc70EeO-2raKzkB-ag"/>
+        </edge>
         <node xmi:type="uml:InitialNode" xmi:id="_DIft4M7uEeO-2raKzkB-ag" name="InitialNode1" outgoing="_7OrxoM7wEeO-2raKzkB-ag"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_EeTqQM7uEeO-2raKzkB-ag" name="call frame" outgoing="_8sQi4M7wEeO-2raKzkB-ag" incoming="_7OrxoM7wEeO-2raKzkB-ag"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_dXTkIM7uEeO-2raKzkB-ag" name="vertical projection" outgoing="__Tfq4M7wEeO-2raKzkB-ag" incoming="_8sQi4M7wEeO-2raKzkB-ag"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_1wadAM7uEeO-2raKzkB-ag" name="clip vertical band" outgoing="_DH37cM7xEeO-2raKzkB-ag" incoming="__Tfq4M7wEeO-2raKzkB-ag"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_62V1AM7uEeO-2raKzkB-ag" name="horizontal projection" outgoing="_OlzXUM7xEeO-2raKzkB-ag" incoming="_DH37cM7xEeO-2raKzkB-ag _H_6BYM7xEeO-2raKzkB-ag">
+        <node xmi:type="uml:OpaqueAction" xmi:id="_EeTqQM7uEeO-2raKzkB-ag" name="call frame" outgoing="_8sQi4M7wEeO-2raKzkB-ag _SkhvUM70EeO-2raKzkB-ag" incoming="_7OrxoM7wEeO-2raKzkB-ag"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_dXTkIM7uEeO-2raKzkB-ag" name="vertical projection" outgoing="__Tfq4M7wEeO-2raKzkB-ag _UYaHwM70EeO-2raKzkB-ag" incoming="_8sQi4M7wEeO-2raKzkB-ag _TksL0M70EeO-2raKzkB-ag"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_1wadAM7uEeO-2raKzkB-ag" name="clip vertical band" outgoing="_DH37cM7xEeO-2raKzkB-ag _VWs8AM70EeO-2raKzkB-ag" incoming="__Tfq4M7wEeO-2raKzkB-ag _UYaHwM70EeO-2raKzkB-ag"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_62V1AM7uEeO-2raKzkB-ag" name="horizontal projection" outgoing="_OlzXUM7xEeO-2raKzkB-ag" incoming="_DH37cM7xEeO-2raKzkB-ag _H_6BYM7xEeO-2raKzkB-ag _VWs8AM70EeO-2raKzkB-ag">
           <outputValue xmi:id="_K9IAcM7xEeO-2raKzkB-ag" name="OutputPin1">
             <upperBound xmi:type="uml:LiteralInteger" xmi:id="_K93nUM7xEeO-2raKzkB-ag" value="1"/>
           </outputValue>
@@ -184,6 +200,7 @@
         <node xmi:type="uml:CentralBufferNode" xmi:id="_2xXRwM7wEeO-2raKzkB-ag" name="CentralBufferNode1">
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_2xfNkM7wEeO-2raKzkB-ag" value="1"/>
         </node>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_G-drIM70EeO-2raKzkB-ag" name="threshold image" outgoing="_TksL0M70EeO-2raKzkB-ag" incoming="_SkhvUM70EeO-2raKzkB-ag"/>
       </ownedBehavior>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ntEi4M6SEeOVrfnZ-qY01A" name="Block2"/>
