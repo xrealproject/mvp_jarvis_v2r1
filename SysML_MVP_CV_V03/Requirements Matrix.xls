@@ -1,0 +1,351 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>0</x:Number>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:ActiveCol>0</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8895</x:WindowHeight>
+  <x:WindowWidth>13980</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>270</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body><table border='1'><tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(255,255,255); background-color: rgb(192,192,192); font: BOLD; font-family: Verdana;'>A</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>B</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>C</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>D</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>E</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(255,255,255); background-color: rgb(192,192,192); font: BOLD; font-family: Verdana;'>id : String [1]</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>name : String [0..1]</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>text : String [1]</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>/derived : Requirement [*]</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>/derivedFrom : Requirement [*]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>0</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>User Friendliness</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>User Friendliness</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>All UI elements should be designed with the objective to draw the least amount of attention for the minimum period of time spent of interacting.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>1</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Computational Performance</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Computational Performance</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Overall processing time, from the moment a scene record is triggered up to the moment the data resulting from object identification shall always keep at minimum.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>2</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Ergonomy</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_ERG_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Ergonomy</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Support system of the video camera needs to be compatible with the smartphone of the user.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>3</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Media Access</td>
+	<td style='color: rgb(255,255,255); background-color: rgb(192,192,192); font: NORMAL; font-family: Verdana;'>REQ_MA_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Media Access</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Storage will be divided into local and cloud storage, accessible from client in mobile or desktop.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>4</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Cloud Connectivity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CC_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Cloud Connectivity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Upon an automatic trigger, connectivity from the client application to the cloud shuold be instantanous and reliable.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>5</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>User Data Management</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_UDD_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>User Data Management</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Data generated by the user will be encrypted and kept private in the personal account of each user.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>6</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Vision Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_VIC_V02R01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Vision Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Environmental variables should be taken into account.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>7</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>UI</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01_UI01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>UI</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Controls in the screen need to be accessible all the time.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[Operational Mode Selector, Data Plan Selector]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>8</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Operational Mode Selector</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01_UI02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Operational Mode Selector</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Application can only run in four different modes, and user needs to be able to switch them any moment.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[UI]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>9</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Data Plan Selector</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01_UI03</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Data Plan Selector</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>The user should be able to select among three different modes of usage of his/her bandwith, provided by the mobilpublic, mobile operator: Economic, Full or Auto.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[UI]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>10</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>HMI Map Navigation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01_MAP01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>HMI Map Navigation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>There must be a visualization of the nearest Jarvis Cam users, with the option to filter by range in km, availability to request help or request for help.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>11</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Intentional Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_UF_V02R01_IT01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Intentional Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>An Intentional Trigger requires the system to recognize the alert call via hand gestures or voice or, in the simples way, a big button in the screen to activate the recording of the scene.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>12</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Videocam_Timed_Record</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Videocam_Timed_Record</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Record 5 sec video at maximum FPS of the HW, encode it to H.264 format and store it in local memory.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>13</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Object Identifcation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Object Identifcation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>All object identification tasks are designed to execute in mobile paltforms, within the minimum period of time where an alert needs to be reported.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[Basic_Pedestrian_Recognition, Basic_ANPR]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>14</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Detect_Wifi_Heavy_Duty_Upload</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_04</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Detect_Wifi_Heavy_Duty_Upload</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Running in the background, Detect WiFi Connectivity and Request to make Upload-Backup of New Videos. If request is accepted, proceed to upload all the recently recorded videos and Object Identification Dataset to the Personal Account in the XReal Cloud. </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>15</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Basic_ANPR</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_06</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Basic_ANPR</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>ANPR will be performed with single lens camera, Android based or iOS based.Detection of a minimum of 1 Number Plates in front of the vehicle.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[Object Identifcation]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>16</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_03</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>To calculate a hazard likelihood, coming from parameters Sudden Braking, Rapid Acceleration and Swerving. Given the likelihood, a threshold will decide to trigger the Video-camera for 5 sec recording. If the decision to record is taken, a timestamp with GPS data is logged, tagged with an ID and locally stored in memory.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[iOS_Mobile_Automatic_Trigger, Android_Mobile_Automatic_Trigger, BluetoothOBD2_Automatic_Trigger]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>17</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Driving_Style_Pattern_Recognition</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_05</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Driving_Style_Pattern_Recognition</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Using the historic Object Identification Datasets stored along a specific time period, perform a Driving Pattern for each user, mapped to the most popular roads (GPS). The result could be used for future optimization of the Automatic Trigger Feature.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>18</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Basic_Pedestrian_Recognition</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_07</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Basic_Pedestrian_Recognition</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Figures of pedestrians right in front of the vehicle (same lane of  the road) will be identified. No environmental conditions considered.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[Object Identifcation]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>19</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Android_Mobile_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_08</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Android_Mobile_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Using HW-based Android sensors, accelerometer and gyroscope, calculate Sudden Braking and Rapid Acceleration, and Swerving.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[Automatic_Trigger]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>20</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>BluetoothOBD2_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_09</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>BluetoothOBD2_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Using Acceleration, Throttle position, Vehicle Speed and Braking from Bluetooth Receiver, calculate the Sudden Braking, Rapid Acceleration and Steep Swerving. The Bluetooth Transmitter is an additional Hardware device plugged to the Vehicle's OBD2 port.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[Automatic_Trigger]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>21</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>iOS_Mobile_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CPERF_V02R01_10</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>iOS_Mobile_Automatic_Trigger</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Using HW-based iOS sensors, accelerometer and gyroscope, calculate Sudden Braking and Rapid Acceleration, and Swerving.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[Automatic_Trigger]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>22</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Cloud Storage Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_MA_V02R01_01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Cloud Storage Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>The historic media recorded by the user will be kept into a personal account, under encryption. The minimum size will be 2GB and more GB can be purchased.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>23</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Local Storage Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_MA_V02R01_02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Local Storage Capacity</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Local Storage will be limited by the mobile device. All content will be uploaded to the cloud as soon as it is detected a WiFi connection.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>24</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Call For My Car Number Plate</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_MA_V02R01_03</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Call For My Car Number Plate</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>In case of a stolen car, user is able to login his account from any platform (mobile or desktop) and request to search across all XReal users for where was last seen his Number Plate. The search is executed in the latest results of all accounts in the area. Both area and period of time for search can be input by the requestor.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>25</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Economic_Data_Plan_Option</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_CC_V02R01_01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Economic_Data_Plan_Option</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>After the video recording at maximum FPS of 5 sec, if Data Plan Selector=Economic, tag the video, GPS location, timestamp and Numer Plate with a unique ID. This ID will represent the Object Identification Dataset. Only the GPS location, timestamp and Number Plate will be uploadad with available connectivity. Priority will be given to WiFi, if not available it will be used LTE, 3G, GPRS, in that order.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>26</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Full_Data_Plan_Option</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_CC_V02R01_02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Full_Data_Plan_Option</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>After the video recording at maximum FPS of 5 sec, if Data Plan Selector=Full, tag the video, GPS location, timestamp and Number Plate with a unique ID. This ID will represent the Object Identification Dataset. The complete Object Identification Dataset will be uploaded with available connectivity. Priority will be given to WiFi, if not available it will be used LTE, 3G, GPRS, in that order.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>27</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Encryption Algorithm</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_UDD_V02R01_01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Encryption Algorithm</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>From all the data generated by the user, only the number plates will be availble to be searched by external users, upon the request of help. The rest, including videos, will be available only to the user.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>28</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Data ID</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_UDD_V02R01_02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Data ID</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>All data is identified by user with at least one car registered under his/her name.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>29</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Shaky Filter</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>REQ_VIC_V02R01_01</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>Shaky Filter</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>For the case of Release 1.0  (based in the Smartphone), the camera processing will take advantage of the existing implementations of the hardware in android to filter the shaky images. Moreover, the video at max. FPS is used to chose the best of the images among them.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(242,241,240); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+<tr>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>30</td>
+	<td style='color: rgb(76,76,76); background-color: rgb(242,241,240); font: NORMAL; font-family: Verdana;'>Night Vision</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>REQ_VIC_V02R01_02</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Night Vision</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>Infrared light can be processed in order to read number plates at night.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Ubuntu;'>[]</td>
+</tr>
+</table></body></html>
