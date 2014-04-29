@@ -110,8 +110,6 @@ public class Main extends Activity implements SensorEventListener {
 			}
 		});
 
-		// sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-
 		recorderbtn = (Button) findViewById(R.id.recorder);
 		// start the VideoRecorder with accelerometer
 		mySensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -173,6 +171,7 @@ public class Main extends Activity implements SensorEventListener {
 					}
 				}
 			}
+		}
 
 			if (startedRecording == false) {
 				updateAccelParameters(event.values[0], event.values[1],
@@ -185,7 +184,7 @@ public class Main extends Activity implements SensorEventListener {
 					shakeInitiated = false;
 				}
 			}
-		}
+		
 	}
 
 	private void save() {
@@ -251,6 +250,26 @@ public class Main extends Activity implements SensorEventListener {
 
 	private void executeShakeAction() {
 		if (startedRecording == false) {
+			
+			try {
+				myOutWriter.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (NullPointerException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			try {
+				fOut.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (NullPointerException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 			startedRecording = true;
 			Intent intent = new Intent(Main.this, Recorder.class);
 			startActivity(intent);
