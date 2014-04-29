@@ -224,9 +224,12 @@ public class Recorder extends Activity implements SurfaceHolder.Callback,
 			prRecordInProcess = false;
 			stopRecording();
 
-			getFrame(2000000, 3, video_file.getPath()); // class media data
+			for(int i=1; i<6 ;i++){
+			long usecs=i*800000;
+			getFrame(usecs, 3, video_file.getPath()); // class media data
 														// retreiver
-														// option_closest
+			}											// option_closest
+			
 		}
 
 	}
