@@ -61,7 +61,6 @@ public class Recorder extends Activity implements SurfaceHolder.Callback,
 		createDirIfNotExist(path_Video);
 		prSurfaceView = (SurfaceView) findViewById(R.id.surface_camera);
 		prStartBtn = (Button) findViewById(R.id.main_btn1);
-		// prSettingsBtn = (Button) findViewById(R.id.main_btn2);
 		prRecordInProcess = false;
 		prStartBtn.setOnClickListener(new View.OnClickListener() {
 			// @Override
