@@ -8,7 +8,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Cu3FAKPwEeObPb7eqXVN1w" name="Specifications" URI="">
         <packagedElement xmi:type="uml:Class" xmi:id="_xMaVIKSjEeOKeOccZVrC1Q" name="User Friendliness"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_2tPcQKSqEeO3keThfj9tqw" name="Computational Performance" visibility="package"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2tPcQKSqEeO3keThfj9tqw" name="Computational Performance"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_ZriG8KSyEeO3keThfj9tqw" name="Ergonomy"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_fSyqYKSyEeO3keThfj9tqw" name="Media Access"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_8g2gAKSyEeO3keThfj9tqw" name="Cloud Connectivity"/>
@@ -61,9 +61,13 @@
           <ownedRule xmi:type="uml:Constraint" xmi:id="_6HIK0MZ4EeO_OssxRTUClg" name="Constraint">
             <specification xmi:type="uml:LiteralString" xmi:id="_6HKAAMZ4EeO_OssxRTUClg" name="constraintSpec"/>
           </ownedRule>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_Us1lgMZ2EeO_OssxRTUClg" name="ControlFlow" source="_5KWdsMZxEeO_OssxRTUClg" target="_PZ4eIMZ2EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Us1lgMZ2EeO_OssxRTUClg" name="ControlFlow" source="_5KWdsMZxEeO_OssxRTUClg" target="_PZ4eIMZ2EeO_OssxRTUClg">
+            <weight xmi:type="uml:InstanceValue" xmi:id="_fGo0wNPFEeOMqo5eqvKImw" name=""/>
+          </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_gzspoMZ2EeO_OssxRTUClg" name="ControlFlow1" source="_PZ4eIMZ2EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_au3SAMZ5EeO_OssxRTUClg" name="ControlFlow4" source="_PZ4eIMZ2EeO_OssxRTUClg" target="_X6-1IMZ5EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_au3SAMZ5EeO_OssxRTUClg" name="ControlFlow4" source="_PZ4eIMZ2EeO_OssxRTUClg" target="_X6-1IMZ5EeO_OssxRTUClg">
+            <weight xmi:type="uml:InstanceValue" xmi:id="_qL_YkNPFEeOMqo5eqvKImw" name="" type="_JFMXkMWzEeOKLK8rl-pfkg"/>
+          </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_f5SIcMZ5EeO_OssxRTUClg" name="ControlFlow5" source="_X6-1IMZ5EeO_OssxRTUClg" target="_Kx8iUMZ5EeO_OssxRTUClg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_hS6N0MZ5EeO_OssxRTUClg" name="ControlFlow6" source="_X6-1IMZ5EeO_OssxRTUClg" target="_LutFgMZ5EeO_OssxRTUClg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_kEOe4MZ5EeO_OssxRTUClg" name="ControlFlow7" source="_Kx8iUMZ5EeO_OssxRTUClg"/>

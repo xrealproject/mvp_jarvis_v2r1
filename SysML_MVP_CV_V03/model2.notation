@@ -2079,29 +2079,6 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bffg0qeEEeO9ncsb8lV4WA" points="[4, 10, -112, -264]$[4, 273, -112, -1]$[32, 273, -84, -1]"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="_gBcDAKd5EeO9ncsb8lV4WA" name="RequirementTable_0" currentRowAxisProvider="_gBcDBad5EeO9ncsb8lV4WA" currentColumnAxisProvider="_gBcDAad5EeO9ncsb8lV4WA">
-    <context xmi:type="uml:Package" href="model2.uml#_Cu3FAKPwEeObPb7eqXVN1w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#/"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_gBcDAad5EeO9ncsb8lV4WA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_gBcDAqd5EeO9ncsb8lV4WA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
-      </axis>
-      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_gBcDA6d5EeO9ncsb8lV4WA">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
-        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/4.0.0/UML#//NamedElement/name"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_gBcDBKd5EeO9ncsb8lV4WA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ZxNJIKd7EeO9ncsb8lV4WA" element="property_of_stereotype:/SysML::Requirements::Requirement::derived">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ZxNJIad7EeO9ncsb8lV4WA" element="property_of_stereotype:/SysML::Requirements::Requirement::derivedFrom">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_gBcDBad5EeO9ncsb8lV4WA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-  </nattable:Table>
   <notation:Diagram xmi:id="_Sf1iYKd9EeO9ncsb8lV4WA" type="BlockDefinition" name="bdd Detection Domain" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_0Cw-gKfVEeO9ncsb8lV4WA" type="2007" fontName="Ubuntu" fontHeight="11" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0CyMoKfVEeO9ncsb8lV4WA" source="ShadowFigure">
