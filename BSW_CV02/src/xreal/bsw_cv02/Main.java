@@ -6,6 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -52,11 +55,11 @@ public class Main extends Activity implements SensorEventListener {
 	private float zPreviousAccel;
 
 	private boolean firstUpdate = true;
-	private final float shakeThreshold = 0.9f;
+	
+	private final float shakeThreshold = 2.0f;//0.9f;16.0f;//freno brusco; 10.0f;//rompemuelle
 	private boolean shakeInitiated = false;
 	private SensorManager mySensorManager;
 	boolean startedRecording = false;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 
@@ -71,8 +74,12 @@ public class Main extends Activity implements SensorEventListener {
 
 			public void onClick(View v) {
 				// start recording the sensor data
+				Calendar c = Calendar.getInstance();
+				SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss");
+				final String formattedDate = df.format(c.getTime());
+				String sensor_name = formattedDate;
 				try {
-					myFile = new File("/sdcard/TestVideo/" + "txtt8" + ".txt");
+					myFile = new File("/sdcard/TestVideo/" + sensor_name + ".txt");
 					myFile.createNewFile();
 
 					fOut = new FileOutputStream(myFile);
@@ -127,7 +134,6 @@ public class Main extends Activity implements SensorEventListener {
 			}
 		});
 	}
-
 	@Override
 	public void onSensorChanged(SensorEvent event) {
 		if (startFlag) {
@@ -151,24 +157,7 @@ public class Main extends Activity implements SensorEventListener {
 				}
 
 				else {
-					try {
-						myOutWriter.close();
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					} catch (NullPointerException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					try {
-						fOut.close();
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					} catch (NullPointerException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
+					stop_sensor();
 				}
 			}
 		}
@@ -186,13 +175,32 @@ public class Main extends Activity implements SensorEventListener {
 			}
 		
 	}
-
 	private void save() {
 
 		myPrintWriter.println(currentTime - startTime + " " + acceleration[0]
 				+ " " + acceleration[1] + " " + acceleration[2]);
 	}
+	private void stop_sensor(){
+		try {
+			myOutWriter.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NullPointerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			fOut.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NullPointerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
+	}
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -200,27 +208,19 @@ public class Main extends Activity implements SensorEventListener {
 		mySensorManager.registerListener(this,
 				mySensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
 				SensorManager.SENSOR_DELAY_NORMAL);
-		mySensorManager.registerListener(this,
-				mySensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE),
-				SensorManager.SENSOR_DELAY_NORMAL);
-		mySensorManager.registerListener(this,
-				mySensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),
-				SensorManager.SENSOR_DELAY_NORMAL);
+		startedRecording = false;
 	}
-
 	@Override
 	protected void onPause() {
 		// unregister listener
 		super.onPause();
 		mySensorManager.unregisterListener(this);
 	}
-
 	@Override
 	public void onAccuracyChanged(Sensor arg0, int arg1) {
 		// TODO Auto-generated method stub
 
 	}
-
 	private void updateAccelParameters(float xNewAccel, float yNewAccel,
 			float zNewAccel) {
 
@@ -238,37 +238,23 @@ public class Main extends Activity implements SensorEventListener {
 		yAccel = yNewAccel;
 		zAccel = zNewAccel;
 	}
-
-	private boolean isAccelerationChanged() {
-		float deltaX = Math.abs(xPreviousAccel - xAccel);
-		float deltaY = Math.abs(yPreviousAccel - yAccel);
-		float deltaZ = Math.abs(zPreviousAccel - zAccel);
-		return (deltaX > shakeThreshold && deltaY > shakeThreshold)
-				|| (deltaX > shakeThreshold && deltaZ > shakeThreshold)
-				|| (deltaY > shakeThreshold && deltaZ > shakeThreshold);
+	private boolean isAccelerationChanged() { //agregar aceleracion minima(freno largo)
+//		float deltaX = Math.abs(xPreviousAccel - xAccel);
+//		float deltaY = Math.abs(yPreviousAccel - yAccel);
+//		float deltaZ = Math.abs(zPreviousAccel - zAccel);
+//		return (deltaX > shakeThreshold && deltaY > shakeThreshold)
+//				|| (deltaX > shakeThreshold && deltaZ > shakeThreshold)
+//				|| (deltaY > shakeThreshold && deltaZ > shakeThreshold);
+//		-------------
+//		if(xAccel<-8.5){}
+		double comp_accel;
+		comp_accel=Math.sqrt(Math.pow(zAccel,2)+Math.pow(yAccel,2));//acceleracion paralela al suelo
+		return(comp_accel>shakeThreshold);
 	}
-
 	private void executeShakeAction() {
 		if (startedRecording == false) {
-			
-			try {
-				myOutWriter.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (NullPointerException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			try {
-				fOut.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (NullPointerException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			stopFlag=true;
+			stop_sensor();
 			
 			startedRecording = true;
 			Intent intent = new Intent(Main.this, Recorder.class);
