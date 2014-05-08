@@ -70,6 +70,9 @@
     <availablePage>
       <emfPageIdentifier href="model2.notation#_DgdrQNbsEeO924YiZibjsQ"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model2.notation#_zI7bINb2EeO924YiZibjsQ"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -79,6 +82,15 @@
         </children>
         <children>
           <emfPageIdentifier href="model2.notation#_DgdrQNbsEeO924YiZibjsQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_Sf1iYKd9EeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_772c0KfkEeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_zI7bINb2EeO924YiZibjsQ"/>
         </children>
       </children>
     </windows>
