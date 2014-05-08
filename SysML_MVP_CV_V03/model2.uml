@@ -49,6 +49,48 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_UvnhEKYnEeO40syU7gHtvA" name="Data ID"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_B-UzsKeEEeO9ncsb8lV4WA" name="Shaky Filter"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_7TGN8KYnEeO40syU7gHtvA" name="Night Vision"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_9k8vENbrEeO924YiZibjsQ" name="Activity1" node="_G1Rq8NbsEeO924YiZibjsQ _SdUaMNbuEeO924YiZibjsQ _hgUfUNbuEeO924YiZibjsQ _q9KNMNbuEeO924YiZibjsQ _KQ4u0NbvEeO924YiZibjsQ _eb0XENbvEeO924YiZibjsQ _heMi8NbvEeO924YiZibjsQ _jupioNbvEeO924YiZibjsQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_qdL3MNbvEeO924YiZibjsQ" name="ControlFlow1" source="_G1Rq8NbsEeO924YiZibjsQ" target="_SdUaMNbuEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_qdNsYNbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_qdO6gNbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_xCglYNbvEeO924YiZibjsQ" name="ControlFlow2" source="_SdUaMNbuEeO924YiZibjsQ" target="_hgUfUNbuEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_xCiakNbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_xCjBoNbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_y7m1ANbvEeO924YiZibjsQ" name="ControlFlow3" source="_hgUfUNbuEeO924YiZibjsQ" target="_q9KNMNbuEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_y7oqMNbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_y7oqMdbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_2Kd9sNbvEeO924YiZibjsQ" name="ControlFlow4" source="_q9KNMNbuEeO924YiZibjsQ" target="_KQ4u0NbvEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_2KfL0NbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_2Kfy4NbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_36w2oNbvEeO924YiZibjsQ" name="ControlFlow5" source="_KQ4u0NbvEeO924YiZibjsQ" target="_jupioNbvEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_36yEwNbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_36yr0NbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_7j0A8NbvEeO924YiZibjsQ" name="ControlFlow6" source="_jupioNbvEeO924YiZibjsQ" target="_heMi8NbvEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_7j1PENbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_7j12INbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8pDKsNbvEeO924YiZibjsQ" name="ControlFlow7" source="_heMi8NbvEeO924YiZibjsQ" target="_eb0XENbvEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_8pEY0NbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_8pE_4NbvEeO924YiZibjsQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_-vIGYNbvEeO924YiZibjsQ" name="ControlFlow8" source="_heMi8NbvEeO924YiZibjsQ" target="_KQ4u0NbvEeO924YiZibjsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_-vJUgNbvEeO924YiZibjsQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_-vJ7kNbvEeO924YiZibjsQ"/>
+          </edge>
+          <node xmi:type="uml:InitialNode" xmi:id="_G1Rq8NbsEeO924YiZibjsQ" name="InitialNode1" outgoing="_qdL3MNbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_SdUaMNbuEeO924YiZibjsQ" name="add lib: android-async-http-1.4.2.jar" outgoing="_xCglYNbvEeO924YiZibjsQ" incoming="_qdL3MNbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_hgUfUNbuEeO924YiZibjsQ" name="load parameters to RequestParams, data and file" outgoing="_y7m1ANbvEeO924YiZibjsQ" incoming="_xCglYNbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_q9KNMNbuEeO924YiZibjsQ" name="create a AsyncHttpClient to our server's URL" outgoing="_2Kd9sNbvEeO924YiZibjsQ" incoming="_y7m1ANbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_KQ4u0NbvEeO924YiZibjsQ" name="post the content" outgoing="_36w2oNbvEeO924YiZibjsQ" incoming="_2Kd9sNbvEeO924YiZibjsQ _-vIGYNbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_eb0XENbvEeO924YiZibjsQ" name="Receive Response" incoming="_8pDKsNbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_heMi8NbvEeO924YiZibjsQ" name="DecisionNode1" outgoing="_8pDKsNbvEeO924YiZibjsQ _-vIGYNbvEeO924YiZibjsQ" incoming="_7j0A8NbvEeO924YiZibjsQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_jupioNbvEeO924YiZibjsQ" name="onSuccess?" outgoing="_7j0A8NbvEeO924YiZibjsQ" incoming="_36w2oNbvEeO924YiZibjsQ"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Fmag8KPwEeObPb7eqXVN1w" name="Activity Diagram">
         <packagedElement xmi:type="uml:Activity" xmi:id="_Q_i4kMZvEeO_OssxRTUClg" name="act SWM_CPERF_V02R01_08_01" group="_neYcIMZ6EeO_OssxRTUClg" node="_5KWdsMZxEeO_OssxRTUClg _mMNb4MZ1EeO_OssxRTUClg _tAM4MMZ1EeO_OssxRTUClg _PZ4eIMZ2EeO_OssxRTUClg _gTFacMZ3EeO_OssxRTUClg _nUx7kMZ3EeO_OssxRTUClg _Kx8iUMZ5EeO_OssxRTUClg _LutFgMZ5EeO_OssxRTUClg _X6-1IMZ5EeO_OssxRTUClg _D5ntsMZ7EeO_OssxRTUClg _Q8Al8MZ7EeO_OssxRTUClg _VNbX0MZ7EeO_OssxRTUClg _eZ3x4MZ-EeO_OssxRTUClg _Tm1QoMZ_EeO_OssxRTUClg">
