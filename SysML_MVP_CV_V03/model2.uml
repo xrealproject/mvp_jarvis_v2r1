@@ -871,7 +871,7 @@
               </defaultValue>
             </ownedAttribute>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_LdayYNb6EeO924YiZibjsQ" name="Parameters">
+          <packagedElement xmi:type="uml:Class" xmi:id="_LdayYNb6EeO924YiZibjsQ" name="Call frames">
             <ownedAttribute xmi:type="uml:Port" xmi:id="_lNfeMNb6EeO924YiZibjsQ" name="stored_frames" visibility="public" aggregation="composite">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mpXmUNb6EeO924YiZibjsQ" value="1"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpZbgNb6EeO924YiZibjsQ" value="1"/>
@@ -914,6 +914,31 @@
               <details xmi:id="_Xqucwtb6EeO924YiZibjsQ" key="nature" value="SysML_Nature"/>
             </eAnnotations>
             <ownedEnd xmi:id="_Xqucw9b6EeO924YiZibjsQ" name="" type="_DzYZwKflEeO9ncsb8lV4WA" association="_XqucwNb6EeO924YiZibjsQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:StateMachine" xmi:id="_go-jYNe5EeOi3fktaROX6A" name="stm REQ_CC_V02R01_01">
+            <region xmi:id="_jdZy0Ne5EeOi3fktaROX6A" name="Region1">
+              <transition xmi:id="_0bGisNe8EeOi3fktaROX6A" name="start_activity" source="_ugshINe5EeOi3fktaROX6A" target="_xWx9cNe5EeOi3fktaROX6A"/>
+              <transition xmi:id="_GqlK4Ne9EeOi3fktaROX6A" name="upload_request" source="_xWx9cNe5EeOi3fktaROX6A" target="_ayRZQNe6EeOi3fktaROX6A"/>
+              <transition xmi:id="_3Z-5MNe9EeOi3fktaROX6A" name="Transition0" source="_ayRZQNe6EeOi3fktaROX6A" target="_vrOakNe5EeOi3fktaROX6A"/>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_ugshINe5EeOi3fktaROX6A" name="Initial0"/>
+              <subvertex xmi:type="uml:FinalState" xmi:id="_vrOakNe5EeOi3fktaROX6A" name="FinalState0"/>
+              <subvertex xmi:type="uml:State" xmi:id="_xWx9cNe5EeOi3fktaROX6A" name="idle"/>
+              <subvertex xmi:type="uml:State" xmi:id="_ayRZQNe6EeOi3fktaROX6A" name="uploading">
+                <connectionPoint xmi:id="_xjy-YNe8EeOi3fktaROX6A" name="ExitPoint0" kind="exitPoint"/>
+                <region xmi:id="_kGldQNe6EeOi3fktaROX6A" name="Region0">
+                  <transition xmi:id="_LlciYNe9EeOi3fktaROX6A" name="not_localFile" source="_2j_zwNe6EeOi3fktaROX6A" target="_WQ08cNe8EeOi3fktaROX6A"/>
+                  <transition xmi:id="_WlKYQNe9EeOi3fktaROX6A" name="correct_file" source="_2j_zwNe6EeOi3fktaROX6A" target="_TlFu8Ne8EeOi3fktaROX6A"/>
+                  <transition xmi:id="_ckxxUNe9EeOi3fktaROX6A" name="post_onserver" source="_TlFu8Ne8EeOi3fktaROX6A" target="_kiIe4Ne8EeOi3fktaROX6A"/>
+                  <transition xmi:id="_1e66sNe9EeOi3fktaROX6A" name="Transition0" source="_kiIe4Ne8EeOi3fktaROX6A" target="_zrGzsNe9EeOi3fktaROX6A"/>
+                  <subvertex xmi:type="uml:Pseudostate" xmi:id="_2j_zwNe6EeOi3fktaROX6A" name="Initial0"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_TlFu8Ne8EeOi3fktaROX6A" name="find_frames"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_WQ08cNe8EeOi3fktaROX6A" name="not_founded_frames"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_kiIe4Ne8EeOi3fktaROX6A" name="success_upload"/>
+                  <subvertex xmi:type="uml:FinalState" xmi:id="_v3w6YNe8EeOi3fktaROX6A" name="FinalState0"/>
+                  <subvertex xmi:type="uml:FinalState" xmi:id="_zrGzsNe9EeOi3fktaROX6A" name="FinalState1"/>
+                </region>
+              </subvertex>
+            </region>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_rEEgAKfnEeO9ncsb8lV4WA" name="Collaborative Domain">
