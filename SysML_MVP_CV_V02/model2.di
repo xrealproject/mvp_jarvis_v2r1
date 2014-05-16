@@ -80,6 +80,9 @@
         <children>
           <emfPageIdentifier href="model2.notation#_9ZPlsNPHEeOMqo5eqvKImw"/>
         </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_772c0KfkEeO9ncsb8lV4WA"/>
+        </children>
       </children>
     </windows>
   </sashModel>
