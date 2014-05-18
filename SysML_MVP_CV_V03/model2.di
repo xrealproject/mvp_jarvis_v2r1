@@ -99,7 +99,10 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model2.notation#_DgdrQNbsEeO924YiZibjsQ"/>
+          <emfPageIdentifier href="model2.notation#_vurLcMaHEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_772c0KfkEeO9ncsb8lV4WA"/>
         </children>
         <children>
           <emfPageIdentifier href="model2.notation#_Ee8g4N07EeOEQ6Wvfqh4GA"/>
@@ -109,6 +112,30 @@
         </children>
         <children>
           <emfPageIdentifier href="model2.notation#_mTinUN08EeOEQ6Wvfqh4GA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_KixiMN1UEeONweUC6C64IA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_FKTosN1UEeONweUC6C64IA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_hiVokMaHEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_jyH54MaHEeO_OssxRTUClg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_Sf1iYKd9EeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_CfH9kKfaEeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_Uu8KsKffEeO9ncsb8lV4WA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model2.notation#_DYDdwKfnEeO9ncsb8lV4WA"/>
         </children>
       </children>
     </windows>
