@@ -968,10 +968,52 @@
               <end xmi:type="uml:ConnectorEnd" xmi:id="_QUTDoN1OEeOEQ6Wvfqh4GA" partWithPort="_XJUpcN1IEeOEQ6Wvfqh4GA" role="_PkSjAN1OEeOEQ6Wvfqh4GA"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_QUTDod1OEeOEQ6Wvfqh4GA" partWithPort="_8ciTMN1GEeOEQ6Wvfqh4GA" role="_MkCTgN1NEeOEQ6Wvfqh4GA"/>
             </ownedConnector>
-            <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZkTKAN07EeOEQ6Wvfqh4GA" name="act SWM_CC_V02R01_01_01"/>
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZkTKAN07EeOEQ6Wvfqh4GA" name="act SWM_CC_V02R01_01_01" node="_2EG-8N6uEeOuQdbSkJqz8A _4xIl4N6uEeOuQdbSkJqz8A _GXo7AN6zEeOuQdbSkJqz8A _JYAp0N61EeOuQdbSkJqz8A _PUw8IN61EeOuQdbSkJqz8A _mY7bUN61EeOuQdbSkJqz8A _3dK_cN61EeOuQdbSkJqz8A _7ME6IN61EeOuQdbSkJqz8A">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_vnSL0N62EeOuQdbSkJqz8A" annotatedElement="_3dK_cN61EeOuQdbSkJqz8A">
+                <body>has server confirmed?</body>
+              </ownedComment>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_SQqQEN62EeOuQdbSkJqz8A" name="ControlFlow" source="_2EG-8N6uEeOuQdbSkJqz8A" target="_4xIl4N6uEeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_UBeGYN62EeOuQdbSkJqz8A" name="ControlFlow1" source="_4xIl4N6uEeOuQdbSkJqz8A" target="_GXo7AN6zEeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_VSxWMN62EeOuQdbSkJqz8A" name="ControlFlow2" source="_GXo7AN6zEeOuQdbSkJqz8A" target="_JYAp0N61EeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_WSft0N62EeOuQdbSkJqz8A" name="ControlFlow3" source="_JYAp0N61EeOuQdbSkJqz8A" target="_PUw8IN61EeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_XatTEN62EeOuQdbSkJqz8A" name="ControlFlow4" source="_PUw8IN61EeOuQdbSkJqz8A" target="_mY7bUN61EeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_ZFWP8N62EeOuQdbSkJqz8A" name="ControlFlow5" source="_mY7bUN61EeOuQdbSkJqz8A" target="_3dK_cN61EeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_aVBIEN62EeOuQdbSkJqz8A" name="ControlFlow6" source="_3dK_cN61EeOuQdbSkJqz8A" target="_7ME6IN61EeOuQdbSkJqz8A"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_daRBwN62EeOuQdbSkJqz8A" name="ControlFlow7" source="_3dK_cN61EeOuQdbSkJqz8A" target="_mY7bUN61EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_2EG-8N6uEeOuQdbSkJqz8A" name="InitialNode" outgoing="_SQqQEN62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_4xIl4N6uEeOuQdbSkJqz8A" name="call_frames_from_sd" outgoing="_UBeGYN62EeOuQdbSkJqz8A" incoming="_SQqQEN62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_GXo7AN6zEeOuQdbSkJqz8A" name="fowards_request" outgoing="_VSxWMN62EeOuQdbSkJqz8A" incoming="_UBeGYN62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_JYAp0N61EeOuQdbSkJqz8A" name="encrypt_data" outgoing="_WSft0N62EeOuQdbSkJqz8A" incoming="_VSxWMN62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_PUw8IN61EeOuQdbSkJqz8A" name="send_encrypted_file_to_tomcat" outgoing="_XatTEN62EeOuQdbSkJqz8A" incoming="_WSft0N62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_mY7bUN61EeOuQdbSkJqz8A" name="save_file_and_information_to_Database" outgoing="_ZFWP8N62EeOuQdbSkJqz8A" incoming="_XatTEN62EeOuQdbSkJqz8A _daRBwN62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_3dK_cN61EeOuQdbSkJqz8A" name="DecisionNode" outgoing="_aVBIEN62EeOuQdbSkJqz8A _daRBwN62EeOuQdbSkJqz8A" incoming="_ZFWP8N62EeOuQdbSkJqz8A"/>
+              <node xmi:type="uml:FlowFinalNode" xmi:id="_7ME6IN61EeOuQdbSkJqz8A" name="FlowFinalNode" incoming="_aVBIEN62EeOuQdbSkJqz8A"/>
+            </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_LmFtQN08EeOEQ6Wvfqh4GA" name="Interaction1"/>
             <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_k523kN08EeOEQ6Wvfqh4GA" name="SWM_CC_V02R01_01">
-              <region xmi:type="uml:Region" xmi:id="_mTgyIN08EeOEQ6Wvfqh4GA" name="Region1"/>
+              <region xmi:type="uml:Region" xmi:id="_mTgyIN08EeOEQ6Wvfqh4GA" name="Region1">
+                <transition xmi:type="uml:Transition" xmi:id="_rOsKAN6tEeOuQdbSkJqz8A" name="Transition0" source="_vP8BoN6cEeOuQdbSkJqz8A" target="_1XRzUN6cEeOuQdbSkJqz8A"/>
+                <transition xmi:type="uml:Transition" xmi:id="_7aTdAN6tEeOuQdbSkJqz8A" name="Transition1" source="_1XRzUN6cEeOuQdbSkJqz8A" target="_eab0YN6tEeOuQdbSkJqz8A"/>
+                <transition xmi:type="uml:Transition" xmi:id="_8yhNIN6tEeOuQdbSkJqz8A" name="Transition2" source="_eab0YN6tEeOuQdbSkJqz8A" target="_kxw1wN6gEeOuQdbSkJqz8A"/>
+                <subvertex xmi:type="uml:Pseudostate" xmi:id="_vP8BoN6cEeOuQdbSkJqz8A" name="Initial0"/>
+                <subvertex xmi:type="uml:State" xmi:id="_1XRzUN6cEeOuQdbSkJqz8A" name="State0">
+                  <region xmi:type="uml:Region" xmi:id="_XixhYN6fEeOuQdbSkJqz8A" name="Region0">
+                    <transition xmi:type="uml:Transition" xmi:id="_tjmy8N6tEeOuQdbSkJqz8A" name="Transition0" source="_iiKxsN6gEeOuQdbSkJqz8A" target="_O3brcN6rEeOuQdbSkJqz8A"/>
+                    <transition xmi:type="uml:Transition" xmi:id="_xQiXsN6tEeOuQdbSkJqz8A" name="Transition2" source="_O3brcN6rEeOuQdbSkJqz8A" target="_rmfQ4N6rEeOuQdbSkJqz8A"/>
+                    <transition xmi:type="uml:Transition" xmi:id="_yYlk4N6tEeOuQdbSkJqz8A" name="Transition3" source="_rmfQ4N6rEeOuQdbSkJqz8A" target="_qWvDwN6sEeOuQdbSkJqz8A"/>
+                    <transition xmi:type="uml:Transition" xmi:id="_zsCJwN6tEeOuQdbSkJqz8A" name="Transition4" source="_qWvDwN6sEeOuQdbSkJqz8A" target="_F2BqcN6tEeOuQdbSkJqz8A"/>
+                    <transition xmi:type="uml:Transition" xmi:id="_5_5UgN6tEeOuQdbSkJqz8A" name="Transition1" source="_F2BqcN6tEeOuQdbSkJqz8A" target="_jSur8N6gEeOuQdbSkJqz8A"/>
+                    <subvertex xmi:type="uml:Pseudostate" xmi:id="_iiKxsN6gEeOuQdbSkJqz8A" name="Initial0"/>
+                    <subvertex xmi:type="uml:FinalState" xmi:id="_jSur8N6gEeOuQdbSkJqz8A" name="FinalState0"/>
+                    <subvertex xmi:type="uml:State" xmi:id="_O3brcN6rEeOuQdbSkJqz8A" name="Call_frames_from_sd"/>
+                    <subvertex xmi:type="uml:State" xmi:id="_rmfQ4N6rEeOuQdbSkJqz8A" name="Requesting"/>
+                    <subvertex xmi:type="uml:State" xmi:id="_qWvDwN6sEeOuQdbSkJqz8A" name="Server_comunication"/>
+                    <subvertex xmi:type="uml:State" xmi:id="_F2BqcN6tEeOuQdbSkJqz8A" name="save_onSQLite"/>
+                  </region>
+                </subvertex>
+                <subvertex xmi:type="uml:FinalState" xmi:id="_kxw1wN6gEeOuQdbSkJqz8A" name="FinalState0"/>
+                <subvertex xmi:type="uml:State" xmi:id="_eab0YN6tEeOuQdbSkJqz8A" name="Wait_server_confirmation"/>
+              </region>
             </ownedBehavior>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_JwAJMKflEeO9ncsb8lV4WA" name="Secure Connection">

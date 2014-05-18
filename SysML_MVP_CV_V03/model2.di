@@ -99,28 +99,16 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="model2.notation#_772c0KfkEeO9ncsb8lV4WA"/>
+          <emfPageIdentifier href="model2.notation#_DgdrQNbsEeO924YiZibjsQ"/>
         </children>
         <children>
           <emfPageIdentifier href="model2.notation#_Ee8g4N07EeOEQ6Wvfqh4GA"/>
         </children>
         <children>
-          <emfPageIdentifier href="model2.notation#_sJGqgN1SEeONweUC6C64IA"/>
+          <emfPageIdentifier href="model2.notation#_ayfbcN07EeOEQ6Wvfqh4GA"/>
         </children>
         <children>
-          <emfPageIdentifier href="model2.notation#_UfxzUN1TEeONweUC6C64IA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model2.notation#_SzQR4MZvEeO_OssxRTUClg"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model2.notation#_FKTosN1UEeONweUC6C64IA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model2.notation#_KixiMN1UEeONweUC6C64IA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="model2.notation#_qR6XgN6TEeOZPJi3VwjpuQ"/>
+          <emfPageIdentifier href="model2.notation#_mTinUN08EeOEQ6Wvfqh4GA"/>
         </children>
       </children>
     </windows>
