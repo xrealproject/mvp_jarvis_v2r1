@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration">
   <notation:Diagram xmi:id="_0wd8oKShEeOKeOccZVrC1Q" type="RequirementDiagram" name="req Specifications" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_faSz0KSiEeOKeOccZVrC1Q" type="2007" fontColor="16777215" fontName="Ubuntu" fontHeight="11" fillColor="4073984" lineColor="12632256">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_faTa4KSiEeOKeOccZVrC1Q" source="ShadowFigure">
@@ -5077,6 +5077,10 @@
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SzQR98ZvEeO_OssxRTUClg"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4ZMC8N6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4ZMC8d6NEeOZPJi3VwjpuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZMC8t6NEeOZPJi3VwjpuQ"/>
+      </children>
       <element xmi:type="uml:Activity" href="model2.uml#_Q_i4kMZvEeO_OssxRTUClg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SzQR-MZvEeO_OssxRTUClg" width="924" height="735"/>
     </children>
@@ -7803,6 +7807,10 @@
           <children xmi:type="notation:BasicCompartment" xmi:id="_5rLMk91LEeOEQ6Wvfqh4GA" type="compartment_sysml_blockproperty_structure">
             <styles xmi:type="notation:TitleStyle" xmi:id="_5rLMlN1LEeOEQ6Wvfqh4GA"/>
           </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_31lmoN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_31lmod6NEeOZPJi3VwjpuQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_31lmot6NEeOZPJi3VwjpuQ"/>
+          </children>
           <element xmi:type="uml:Property" href="model2.uml#_4XldwN1LEeOEQ6Wvfqh4GA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5rLMkd1LEeOEQ6Wvfqh4GA" x="138" y="132" width="140" height="100"/>
         </children>
@@ -8214,6 +8222,10 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_sJGqkN1SEeONweUC6C64IA" type="7004">
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJGqkd1SEeONweUC6C64IA"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4KBlkN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4KBlkd6NEeOZPJi3VwjpuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KBlkt6NEeOZPJi3VwjpuQ"/>
+      </children>
       <element xmi:type="uml:Activity" href="model2.uml#_qPTQQN1SEeONweUC6C64IA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJGqkt1SEeONweUC6C64IA"/>
     </children>
@@ -8233,10 +8245,18 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_UfxzWN1TEeONweUC6C64IA" type="3002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UfxzWd1TEeONweUC6C64IA"/>
           </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_4O4QYN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_4O4QYd6NEeOZPJi3VwjpuQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4O4QYt6NEeOZPJi3VwjpuQ"/>
+          </children>
           <element xmi:type="uml:Region" href="model2.uml#_UfxMQN1TEeONweUC6C64IA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UfxzWt1TEeONweUC6C64IA" width="700" height="287"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UfxzW91TEeONweUC6C64IA" y="16" width="700" height="287"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4O1NEN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4O10IN6NEeOZPJi3VwjpuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4O10Id6NEeOZPJi3VwjpuQ"/>
       </children>
       <element xmi:type="uml:StateMachine" href="model2.uml#_Shru8N1TEeONweUC6C64IA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UfxzXN1TEeONweUC6C64IA" x="30" y="30" width="700" height="303"/>
@@ -8257,10 +8277,18 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_FKTouN1UEeONweUC6C64IA" type="3002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKToud1UEeONweUC6C64IA"/>
           </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_4adOQN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_4adOQd6NEeOZPJi3VwjpuQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4adOQt6NEeOZPJi3VwjpuQ"/>
+          </children>
           <element xmi:type="uml:Region" href="model2.uml#_FKTBoN1UEeONweUC6C64IA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKTout1UEeONweUC6C64IA" width="700" height="287"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKTou91UEeONweUC6C64IA" y="16" width="700" height="287"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4abZEN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4abZEd6NEeOZPJi3VwjpuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4abZEt6NEeOZPJi3VwjpuQ"/>
       </children>
       <element xmi:type="uml:StateMachine" href="model2.uml#_DW6_gN1UEeONweUC6C64IA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKTovN1UEeONweUC6C64IA" x="30" y="30" width="700" height="303"/>
@@ -8289,10 +8317,31 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_KixiQN1UEeONweUC6C64IA" type="7004">
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KixiQd1UEeONweUC6C64IA"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4bZpcN6NEeOZPJi3VwjpuQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_4bZpcd6NEeOZPJi3VwjpuQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4bZpct6NEeOZPJi3VwjpuQ"/>
+      </children>
       <element xmi:type="uml:Activity" href="model2.uml#_IPClAN1UEeONweUC6C64IA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KixiQt1UEeONweUC6C64IA"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_KixiQ91UEeONweUC6C64IA"/>
     <element xmi:type="uml:Activity" href="model2.uml#_IPClAN1UEeONweUC6C64IA"/>
   </notation:Diagram>
+  <nattable:Table xmi:id="_qR6XgN6TEeOZPJi3VwjpuQ" name="RequirementTable_0" currentRowAxisProvider="_qR6-lN6TEeOZPJi3VwjpuQ" currentColumnAxisProvider="_qR6-kN6TEeOZPJi3VwjpuQ">
+    <context xmi:type="uml:Package" href="model2.uml#_Cu3FAKPwEeObPb7eqXVN1w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_qR6-kN6TEeOZPJi3VwjpuQ" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_qR6-kd6TEeOZPJi3VwjpuQ" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_qR6-kt6TEeOZPJi3VwjpuQ">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/4.0.0/UML#//NamedElement/name"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_qR6-k96TEeOZPJi3VwjpuQ" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml.nattable.requirement.config/configs/requirement.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_qR6-lN6TEeOZPJi3VwjpuQ" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
+  </nattable:Table>
 </xmi:XMI>
