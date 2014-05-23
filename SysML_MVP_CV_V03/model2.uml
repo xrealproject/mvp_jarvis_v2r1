@@ -105,7 +105,7 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Fmag8KPwEeObPb7eqXVN1w" name="Activity Diagram">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_Q_i4kMZvEeO_OssxRTUClg" name="act SWM_CPERF_V02R01_08_01" group="_neYcIMZ6EeO_OssxRTUClg" node="_5KWdsMZxEeO_OssxRTUClg _mMNb4MZ1EeO_OssxRTUClg _tAM4MMZ1EeO_OssxRTUClg _PZ4eIMZ2EeO_OssxRTUClg _gTFacMZ3EeO_OssxRTUClg _nUx7kMZ3EeO_OssxRTUClg _Kx8iUMZ5EeO_OssxRTUClg _LutFgMZ5EeO_OssxRTUClg _X6-1IMZ5EeO_OssxRTUClg _D5ntsMZ7EeO_OssxRTUClg _Q8Al8MZ7EeO_OssxRTUClg _VNbX0MZ7EeO_OssxRTUClg _eZ3x4MZ-EeO_OssxRTUClg _Tm1QoMZ_EeO_OssxRTUClg">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_Q_i4kMZvEeO_OssxRTUClg" name="act SWM_CPERF_V02R01_08_01" group="_neYcIMZ6EeO_OssxRTUClg" node="_5KWdsMZxEeO_OssxRTUClg _mMNb4MZ1EeO_OssxRTUClg _PZ4eIMZ2EeO_OssxRTUClg _gTFacMZ3EeO_OssxRTUClg _nUx7kMZ3EeO_OssxRTUClg _Kx8iUMZ5EeO_OssxRTUClg _LutFgMZ5EeO_OssxRTUClg _X6-1IMZ5EeO_OssxRTUClg _D5ntsMZ7EeO_OssxRTUClg _Q8Al8MZ7EeO_OssxRTUClg _VNbX0MZ7EeO_OssxRTUClg _Tm1QoMZ_EeO_OssxRTUClg _MMzs4N7aEeOJD5HOwzGzXA _-cTU8N7aEeOJD5HOwzGzXA">
           <ownedComment xmi:type="uml:Comment" xmi:id="_UgvGYMZ6EeO_OssxRTUClg" annotatedElement="_VNbX0MZ7EeO_OssxRTUClg">
             <body>Choose available Sensor</body>
           </ownedComment>
@@ -115,32 +115,26 @@
           <ownedRule xmi:type="uml:Constraint" xmi:id="_6HIK0MZ4EeO_OssxRTUClg" name="Constraint">
             <specification xmi:type="uml:LiteralString" xmi:id="_6HKAAMZ4EeO_OssxRTUClg" name="constraintSpec"/>
           </ownedRule>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_Us1lgMZ2EeO_OssxRTUClg" name="ControlFlow" source="_5KWdsMZxEeO_OssxRTUClg" target="_PZ4eIMZ2EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_gzspoMZ2EeO_OssxRTUClg" name="ControlFlow1" source="_PZ4eIMZ2EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_au3SAMZ5EeO_OssxRTUClg" name="ControlFlow4" source="_PZ4eIMZ2EeO_OssxRTUClg" target="_X6-1IMZ5EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_f5SIcMZ5EeO_OssxRTUClg" name="ControlFlow5" source="_X6-1IMZ5EeO_OssxRTUClg" target="_Kx8iUMZ5EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_hS6N0MZ5EeO_OssxRTUClg" name="ControlFlow6" source="_X6-1IMZ5EeO_OssxRTUClg" target="_LutFgMZ5EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_kEOe4MZ5EeO_OssxRTUClg" name="ControlFlow7" source="_Kx8iUMZ5EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_klUZwMZ5EeO_OssxRTUClg" name="ControlFlow8" source="_LutFgMZ5EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_7e9rAMZ5EeO_OssxRTUClg" name="ControlFlow9" target="_nUx7kMZ3EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_Wy8kIMZ7EeO_OssxRTUClg" name="ControlFlow11" source="_LutFgMZ5EeO_OssxRTUClg" target="_VNbX0MZ7EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_YIgo4MZ7EeO_OssxRTUClg" name="ControlFlow12" source="_Kx8iUMZ5EeO_OssxRTUClg" target="_VNbX0MZ7EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_aOAVwMZ7EeO_OssxRTUClg" name="ControlFlow13" source="_VNbX0MZ7EeO_OssxRTUClg" target="_nUx7kMZ3EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_q3_m0MZ7EeO_OssxRTUClg" name="ControlFlow14" source="_gTFacMZ3EeO_OssxRTUClg" target="_D5ntsMZ7EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_szH2wMZ7EeO_OssxRTUClg" name="ControlFlow15" source="_D5ntsMZ7EeO_OssxRTUClg" target="_Q8Al8MZ7EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_zvnu0MZ7EeO_OssxRTUClg" name="ControlFlow16" source="_Q8Al8MZ7EeO_OssxRTUClg" target="_gTFacMZ3EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_1ZoHoMZ9EeO_OssxRTUClg" name="ControlFlow18" source="_nUx7kMZ3EeO_OssxRTUClg" target="_gTFacMZ3EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_lAQ3EMZ-EeO_OssxRTUClg" name="ControlFlow19" source="_Q8Al8MZ7EeO_OssxRTUClg" target="_eZ3x4MZ-EeO_OssxRTUClg"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_UcRq4MZ_EeO_OssxRTUClg" name="ControlFlow20" source="_eZ3x4MZ-EeO_OssxRTUClg" target="_Tm1QoMZ_EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_7n3T4N7ZEeOJD5HOwzGzXA" name="ControlFlow21" source="_VNbX0MZ7EeO_OssxRTUClg" target="_nUx7kMZ3EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_WzVmsN7aEeOJD5HOwzGzXA" name="ControlFlow22" source="_5KWdsMZxEeO_OssxRTUClg" target="_PZ4eIMZ2EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_cgevsN7aEeOJD5HOwzGzXA" name="ControlFlow23" source="_PZ4eIMZ2EeO_OssxRTUClg" target="_X6-1IMZ5EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_c8k10N7aEeOJD5HOwzGzXA" name="ControlFlow24" source="_X6-1IMZ5EeO_OssxRTUClg" target="_Kx8iUMZ5EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_deIqwN7aEeOJD5HOwzGzXA" name="ControlFlow25" source="_X6-1IMZ5EeO_OssxRTUClg" target="_LutFgMZ5EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_eEm04N7aEeOJD5HOwzGzXA" name="ControlFlow26" source="_LutFgMZ5EeO_OssxRTUClg" target="_VNbX0MZ7EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fEdIUN7aEeOJD5HOwzGzXA" name="ControlFlow27" source="_Kx8iUMZ5EeO_OssxRTUClg" target="_VNbX0MZ7EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_meB98N7aEeOJD5HOwzGzXA" name="ControlFlow28" source="_nUx7kMZ3EeO_OssxRTUClg" target="_gTFacMZ3EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_pu__cN7aEeOJD5HOwzGzXA" name="ControlFlow29" source="_gTFacMZ3EeO_OssxRTUClg" target="_D5ntsMZ7EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rAfcgN7aEeOJD5HOwzGzXA" name="ControlFlow30" source="_D5ntsMZ7EeO_OssxRTUClg" target="_Q8Al8MZ7EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_reaHkN7aEeOJD5HOwzGzXA" name="ControlFlow31" source="_Q8Al8MZ7EeO_OssxRTUClg" target="_gTFacMZ3EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_w9EIoN7aEeOJD5HOwzGzXA" name="ControlFlow32" source="_Q8Al8MZ7EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_yG6FkN7aEeOJD5HOwzGzXA" name="ControlFlow33" target="_Tm1QoMZ_EeO_OssxRTUClg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_DDGg8N7bEeOJD5HOwzGzXA" name="ControlFlow34" source="_Q8Al8MZ7EeO_OssxRTUClg" target="_-cTU8N7aEeOJD5HOwzGzXA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ISG8cN7bEeOJD5HOwzGzXA" name="ControlFlow35" source="_-cTU8N7aEeOJD5HOwzGzXA" target="_Tm1QoMZ_EeO_OssxRTUClg"/>
           <group xmi:type="uml:InterruptibleActivityRegion" xmi:id="_neYcIMZ6EeO_OssxRTUClg" name="InterruptibleActivityRegion" node="_PZ4eIMZ2EeO_OssxRTUClg _X6-1IMZ5EeO_OssxRTUClg _LutFgMZ5EeO_OssxRTUClg _Kx8iUMZ5EeO_OssxRTUClg"/>
-          <node xmi:type="uml:InitialNode" xmi:id="_5KWdsMZxEeO_OssxRTUClg" name="InitialNode" outgoing="_Us1lgMZ2EeO_OssxRTUClg"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_5KWdsMZxEeO_OssxRTUClg" name="InitialNode" outgoing="_WzVmsN7aEeOJD5HOwzGzXA"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_mMNb4MZ1EeO_OssxRTUClg" name="ActivityFinalNode"/>
-          <node xmi:type="uml:AcceptEventAction" xmi:id="_tAM4MMZ1EeO_OssxRTUClg" name="Op Mode Request">
-            <handler xmi:type="uml:ExceptionHandler" xmi:id="_wzF7AMZ1EeO_OssxRTUClg"/>
-            <handler xmi:type="uml:ExceptionHandler" xmi:id="_OId5kMZ2EeO_OssxRTUClg"/>
-          </node>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_PZ4eIMZ2EeO_OssxRTUClg" name="Initialize Sensor Listener" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_gzspoMZ2EeO_OssxRTUClg _au3SAMZ5EeO_OssxRTUClg" incoming="_Us1lgMZ2EeO_OssxRTUClg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_gTFacMZ3EeO_OssxRTUClg" name="Calculate Linear One Dimensional Acceleration" outgoing="_q3_m0MZ7EeO_OssxRTUClg" incoming="_zvnu0MZ7EeO_OssxRTUClg _1ZoHoMZ9EeO_OssxRTUClg">
+          <node xmi:type="uml:OpaqueAction" xmi:id="_PZ4eIMZ2EeO_OssxRTUClg" name="Initialize Sensor Listener" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_cgevsN7aEeOJD5HOwzGzXA" incoming="_WzVmsN7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_gTFacMZ3EeO_OssxRTUClg" name="Calculate Linear One Dimensional Acceleration" outgoing="_pu__cN7aEeOJD5HOwzGzXA" incoming="_meB98N7aEeOJD5HOwzGzXA _reaHkN7aEeOJD5HOwzGzXA">
             <outputValue xmi:type="uml:OutputPin" xmi:id="_jovx4MZ7EeO_OssxRTUClg">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jowY8MZ7EeO_OssxRTUClg" value="1"/>
             </outputValue>
@@ -148,19 +142,26 @@
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_nOgXoMZ7EeO_OssxRTUClg" value="1"/>
             </outputValue>
           </node>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_nUx7kMZ3EeO_OssxRTUClg" name="Calculate Ref Android Orientation" outgoing="_1ZoHoMZ9EeO_OssxRTUClg" incoming="_7e9rAMZ5EeO_OssxRTUClg _aOAVwMZ7EeO_OssxRTUClg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_Kx8iUMZ5EeO_OssxRTUClg" name="Get GPS" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_kEOe4MZ5EeO_OssxRTUClg _YIgo4MZ7EeO_OssxRTUClg" incoming="_f5SIcMZ5EeO_OssxRTUClg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_LutFgMZ5EeO_OssxRTUClg" name="Get Accelerometer" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_klUZwMZ5EeO_OssxRTUClg _Wy8kIMZ7EeO_OssxRTUClg" incoming="_hS6N0MZ5EeO_OssxRTUClg"/>
-          <node xmi:type="uml:ForkNode" xmi:id="_X6-1IMZ5EeO_OssxRTUClg" name="ForkNode" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_f5SIcMZ5EeO_OssxRTUClg _hS6N0MZ5EeO_OssxRTUClg" incoming="_au3SAMZ5EeO_OssxRTUClg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_D5ntsMZ7EeO_OssxRTUClg" name="Calculate Change in One Dimensional Accel" outgoing="_szH2wMZ7EeO_OssxRTUClg" incoming="_q3_m0MZ7EeO_OssxRTUClg">
+          <node xmi:type="uml:OpaqueAction" xmi:id="_nUx7kMZ3EeO_OssxRTUClg" name="Calculate Ref Android Orientation" outgoing="_meB98N7aEeOJD5HOwzGzXA" incoming="_7n3T4N7ZEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Kx8iUMZ5EeO_OssxRTUClg" name="Get GPS" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_fEdIUN7aEeOJD5HOwzGzXA" incoming="_c8k10N7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_LutFgMZ5EeO_OssxRTUClg" name="Get Accelerometer" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_eEm04N7aEeOJD5HOwzGzXA" incoming="_deIqwN7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_X6-1IMZ5EeO_OssxRTUClg" name="ForkNode" inInterruptibleRegion="_neYcIMZ6EeO_OssxRTUClg" outgoing="_c8k10N7aEeOJD5HOwzGzXA _deIqwN7aEeOJD5HOwzGzXA" incoming="_cgevsN7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_D5ntsMZ7EeO_OssxRTUClg" name="Calculate Change in One Dimensional Accel" outgoing="_rAfcgN7aEeOJD5HOwzGzXA" incoming="_pu__cN7aEeOJD5HOwzGzXA">
             <inputValue xmi:type="uml:InputPin" xmi:id="_pfLZwMZ7EeO_OssxRTUClg">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_pfMn4MZ7EeO_OssxRTUClg" value="1"/>
             </inputValue>
           </node>
-          <node xmi:type="uml:DecisionNode" xmi:id="_Q8Al8MZ7EeO_OssxRTUClg" name="DecisionNode1" outgoing="_zvnu0MZ7EeO_OssxRTUClg _lAQ3EMZ-EeO_OssxRTUClg" incoming="_szH2wMZ7EeO_OssxRTUClg"/>
-          <node xmi:type="uml:MergeNode" xmi:id="_VNbX0MZ7EeO_OssxRTUClg" name="MergeNode" outgoing="_aOAVwMZ7EeO_OssxRTUClg" incoming="_Wy8kIMZ7EeO_OssxRTUClg _YIgo4MZ7EeO_OssxRTUClg"/>
-          <node xmi:type="uml:ValueSpecificationAction" xmi:id="_eZ3x4MZ-EeO_OssxRTUClg" name="Create TriggerON" outgoing="_UcRq4MZ_EeO_OssxRTUClg" incoming="_lAQ3EMZ-EeO_OssxRTUClg"/>
-          <node xmi:type="uml:FlowFinalNode" xmi:id="_Tm1QoMZ_EeO_OssxRTUClg" name="FlowFinalNode" incoming="_UcRq4MZ_EeO_OssxRTUClg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_Q8Al8MZ7EeO_OssxRTUClg" name="DecisionNode1" outgoing="_reaHkN7aEeOJD5HOwzGzXA _w9EIoN7aEeOJD5HOwzGzXA _DDGg8N7bEeOJD5HOwzGzXA" incoming="_rAfcgN7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_VNbX0MZ7EeO_OssxRTUClg" name="MergeNode" outgoing="_7n3T4N7ZEeOJD5HOwzGzXA" incoming="_eEm04N7aEeOJD5HOwzGzXA _fEdIUN7aEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_Tm1QoMZ_EeO_OssxRTUClg" name="FlowFinalNode" incoming="_yG6FkN7aEeOJD5HOwzGzXA _ISG8cN7bEeOJD5HOwzGzXA"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_MMzs4N7aEeOJD5HOwzGzXA" name="OP mode Request">
+            <handler xmi:type="uml:ExceptionHandler" xmi:id="_TZMbEN7aEeOJD5HOwzGzXA"/>
+          </node>
+          <node xmi:type="uml:CreateObjectAction" xmi:id="_-cTU8N7aEeOJD5HOwzGzXA" name="CreateObjectAction" outgoing="_ISG8cN7bEeOJD5HOwzGzXA" incoming="_DDGg8N7bEeOJD5HOwzGzXA">
+            <result xmi:type="uml:OutputPin" xmi:id="_-cUjEN7aEeOJD5HOwzGzXA" name="result">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-cUjEd7aEeOJD5HOwzGzXA" value="1"/>
+            </result>
+          </node>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_D_qlkKPwEeObPb7eqXVN1w" name="Constraint Blocks">
@@ -793,7 +794,7 @@
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_u__VQKfiEeO9ncsb8lV4WA" name="Computer Vision Domain">
-          <packagedElement xmi:type="uml:Class" xmi:id="_19TssKfiEeO9ncsb8lV4WA" name="Computer Vision" classifierBehavior="_u2_8kMaHEeO_OssxRTUClg">
+          <packagedElement xmi:type="uml:Class" xmi:id="_19TssKfiEeO9ncsb8lV4WA" name="Computer Vision" classifierBehavior="_v8g1IN7bEeOJD5HOwzGzXA">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_E05zEKfjEeO9ncsb8lV4WA" name="object" type="_5983oKfiEeO9ncsb8lV4WA" aggregation="composite" association="_E04k8KfjEeO9ncsb8lV4WA"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_GSX2oafjEeO9ncsb8lV4WA" name="object identification" type="_9fUsoKfiEeO9ncsb8lV4WA" aggregation="composite" association="_GSWogKfjEeO9ncsb8lV4WA"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_LEapUafjEeO9ncsb8lV4WA" name="data processing" type="_BvdFEKfjEeO9ncsb8lV4WA" aggregation="composite" association="_LEY0IKfjEeO9ncsb8lV4WA"/>
@@ -828,6 +829,9 @@
               <node xmi:type="uml:OpaqueAction" xmi:id="_6EoTcN7BEeOuQdbSkJqz8A" name="Resize for downsampling" outgoing="_Vh_ngN7CEeOuQdbSkJqz8A" incoming="_UlBB4N7CEeOuQdbSkJqz8A"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_-uFx4N7BEeOuQdbSkJqz8A" name="feature compare and extraction" outgoing="_XBBxUN7CEeOuQdbSkJqz8A" incoming="_Vh_ngN7CEeOuQdbSkJqz8A"/>
               <node xmi:type="uml:FlowFinalNode" xmi:id="_FUuHoN7CEeOuQdbSkJqz8A" name="FlowFinalNode" incoming="_aD_MAN7CEeOuQdbSkJqz8A"/>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_v8g1IN7bEeOJD5HOwzGzXA" name="StateMachine1">
+              <region xmi:type="uml:Region" xmi:id="_yPHw8N7bEeOJD5HOwzGzXA" name="Region1"/>
             </ownedBehavior>
           </packagedElement>
           <packagedElement xmi:type="uml:Actor" xmi:id="_5983oKfiEeO9ncsb8lV4WA" name="Object"/>
@@ -1117,9 +1121,6 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xqucwtb6EeO924YiZibjsQ" key="nature" value="SysML_Nature"/>
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_Xqucw9b6EeO924YiZibjsQ" name="" type="_DzYZwKflEeO9ncsb8lV4WA" association="_XqucwNb6EeO924YiZibjsQ"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:StateMachine" xmi:id="_go-jYNe5EeOi3fktaROX6A" name="stm REQ_CC_V02R01_01">
-            <region xmi:type="uml:Region" xmi:id="_jdZy0Ne5EeOi3fktaROX6A" name="Region1"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_RcP5QN1FEeOEQ6Wvfqh4GA" name="File Manager Activity">
             <ownedAttribute xmi:type="uml:Port" xmi:id="_4GRgwN1KEeOEQ6Wvfqh4GA" name="flowport" visibility="public" aggregation="composite">
