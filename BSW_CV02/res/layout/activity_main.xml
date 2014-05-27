@@ -11,41 +11,74 @@
         android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
             android:text="BSW Test"
             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/button1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:text="sensorOFF" />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/recorder"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:text="sensorON" />
 
         <Button
             android:id="@+id/recorder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
             android:text="Record" />
+
+        <Button
+            android:id="@+id/sensorONButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/recorder"
+            android:layout_below="@+id/recorder"
+            android:text="sensorON" />
+
+        <Button
+            android:id="@+id/sensorOFFButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sensorONButton"
+            android:layout_below="@+id/sensorONButton"
+            android:text="sensorOFF" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Title"
+            android:layout_alignBottom="@+id/Title"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/sensorOFFButton"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:text="Share" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/shareButton"
+            android:layout_marginRight="32dp"
+            android:orientation="vertical" >
+
+            <com.facebook.widget.LoginButton
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
 
     </RelativeLayout>
 
