@@ -100,8 +100,10 @@ public class MainActivity extends ActionBarActivity {
 
 	public void postImage() {
 		if (checkPermissions()) {
-			Bitmap img = BitmapFactory
-					.decodeFile("/sdcard/TestVideo/2014.05.27_13.27.24.4000000.png");
+//			Bitmap img = BitmapFactory
+//					.decodeFile("/sdcard/TestVideo/2014.05.27_13.27.24.4000000.png");
+			Bitmap img = BitmapFactory.decodeResource(getResources(),
+                    R.drawable.ic_launcher);
 			Request uploadRequest = Request.newUploadPhotoRequest(
 					Session.getActiveSession(), img, new Request.Callback() {
 						@Override
