@@ -9,6 +9,7 @@ import java.util.Calendar;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.hardware.Camera;
 import android.media.MediaMetadataRetriever;
@@ -172,6 +173,12 @@ public class Recorder extends Activity implements SurfaceHolder.Callback,
 			e.printStackTrace();
 		}
 		prRecordInProcess = false;
+		
+		//------start activity for result
+		Intent returnIntent = new Intent();
+		returnIntent.putExtra("result",path_Video + formattedDate);
+		setResult(RESULT_OK,returnIntent);
+		//-------------------------------
 		finish();
 	}
 

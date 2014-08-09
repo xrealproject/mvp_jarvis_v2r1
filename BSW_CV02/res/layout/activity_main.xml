@@ -21,6 +21,7 @@
 
         <Button
             android:id="@+id/recorder"
+            style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -31,6 +32,7 @@
 
         <Button
             android:id="@+id/sensorONButton"
+            style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/recorder"
@@ -39,6 +41,7 @@
 
         <Button
             android:id="@+id/sensorOFFButton"
+            style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/sensorONButton"
@@ -51,18 +54,9 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/Title"
             android:layout_alignBottom="@+id/Title"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@+id/sensorOFFButton"
-            android:text="TextView" />
-
-        <Button
-            android:id="@+id/shareButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="80dp"
-            android:text="Share" />
+            android:text="Not logged" />
 
         <LinearLayout
             android:id="@+id/linearLayout1"
@@ -72,13 +66,70 @@
             android:layout_below="@+id/shareButton"
             android:layout_marginRight="32dp"
             android:orientation="vertical" >
-
-            <com.facebook.widget.LoginButton
-                android:id="@+id/loginButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button_ocr"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sensorOFFButton"
+            android:layout_alignRight="@+id/shareButton"
+            android:text="ocr" />
+
+        <TextView
+            android:id="@+id/textView_ocr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/recorder"
+            android:layout_alignBottom="@+id/recorder"
+            android:layout_alignLeft="@+id/button_ocr"
+            android:text="OCR result"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/shareButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/welcome"
+            android:layout_alignTop="@+id/sensorOFFButton"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="14dp"
+            android:text="Share" />
+
+        <com.facebook.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+        <Button
+            android:id="@+id/ocr2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/shareButton"
+            android:layout_below="@+id/shareButton"
+            android:text="ocr2" />
+
+        <Button
+            android:id="@+id/ocr3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ocr2"
+            android:text="ocr3" />
 
     </RelativeLayout>
 
