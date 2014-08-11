@@ -154,6 +154,7 @@ public class Main extends Activity implements SensorEventListener {
 	String DATA_PATH = "/sdcard/Tesseract/";
 	String lang = "eng";
 	String recognizedText;
+	String[] frames={ " ", " ", " ", " ", " " };
 	// tesseract------------------------------------------------------------
 
 	@Override
@@ -317,49 +318,51 @@ public class Main extends Activity implements SensorEventListener {
 //				}
 //				postStatusMessage(Gps_toPost);
 //				 postImage("/sdcard/TestVideo/1placa.png");
+				String topublish = Gps_toPost + "Recognized Plate: " + recognizedText;
+				postImage(resultado + "_placa" , topublish);
 				//for testing
-				String topublish = Gps_toPost + "Recognized Plate: A2P-681";
-				postImage("/sdcard/TestVideo/null_placaxx.png" , topublish);
+//				String topublish = Gps_toPost + "Recognized Plate: " + recognizedText;
+//				postImage("/sdcard/TestVideo/null_placaxx.png" , topublish);
 //				postStatusMessage(recognizedText);
 			}
 		});
 		// FB---------------------------------------------------------
 		// OCR--------------------------------------------------------
-				display = (TextView) findViewById(R.id.textView_ocr);
-				imageView1 = (ImageView) findViewById(R.id.imageView1);
-				OCRbutton = (Button) findViewById(R.id.button_ocr); //OCR
-				OCRbutton.setOnClickListener(new OnClickListener() {
-					@Override
-					public void onClick(View view) {
-						Log.v(TAG, "click ocr button");
-//						String[] frames = Cincoframes(resultado);
-//						OCR_FUNCTION(frames[2]);
-						//for testing
-						plate = OCR_FUNCTION(test_file);
-					}
-				});
-				OCRbutton2 = (Button) findViewById(R.id.ocr2); //OCR2
-				OCRbutton2.setOnClickListener(new OnClickListener() {
-					@Override
-					public void onClick(View view) {
-//						Log.v(TAG, "click ocr button");
-//						String[] frames = Cincoframes(resultado);
-//						OCR_FUNCTION2(frames[2]);
-						//for testing
-						OCR_FUNCTION2(plate);
-					}
-				});
-				OCRbutton3 = (Button) findViewById(R.id.ocr3); // procesa solo placa
-				OCRbutton3.setOnClickListener(new OnClickListener() {
-					@Override
-					public void onClick(View view) {
-//						Log.v(TAG, "click ocr button");
-//						String[] frames = Cincoframes(resultado);
-//						OCR_FUNCTION2(frames[2]);
-						//for testing
-						plate = OCR_FUNCTION3(plate);
-					}
-				});
+		display = (TextView) findViewById(R.id.textView_ocr);
+		imageView1 = (ImageView) findViewById(R.id.imageView1);
+		OCRbutton = (Button) findViewById(R.id.button_ocr); //OCR
+		OCRbutton.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View view) {
+				Log.v(TAG, "click ocr button");
+				String[] frames = Cincoframes(resultado);
+				plate = OCR_FUNCTION(frames[3]);
+				//for testing
+//				plate = OCR_FUNCTION(test_file);
+			}
+		});
+		OCRbutton2 = (Button) findViewById(R.id.ocr2); //OCR2
+		OCRbutton2.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View view) {
+//				Log.v(TAG, "click ocr button");
+//				String[] frames = Cincoframes(resultado);
+//				OCR_FUNCTION2(frames[2]);
+				//for testing
+				OCR_FUNCTION2(plate);
+			}
+		});
+		OCRbutton3 = (Button) findViewById(R.id.ocr3); // procesa solo placa
+		OCRbutton3.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View view) {
+//				Log.v(TAG, "click ocr button");
+//				String[] frames = Cincoframes(resultado);
+//				OCR_FUNCTION2(frames[2]);
+				//for testing
+				plate = OCR_FUNCTION3(plate);
+			}
+		});
 		// OCR---------------------------------------------------------
 		// GPS GPS GPS--------------------------------------
 		locationMangaer = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
