@@ -305,7 +305,7 @@ public class Main extends Activity implements SensorEventListener {
 			}
 		});
 
-		final String test_file = "/sdcard/TestVideo/2014.07.25_15.25.51.1600000.png";//for testing 33.jpg
+		final String test_file = "/sdcard/TestVideo/2014.08.12_16.36.06.4000000.png";//for testing 33.jpg
 		shareBtn = (Button) findViewById(R.id.shareButton); //SHARE
 		shareBtn.setOnClickListener(new OnClickListener() {
 			@Override
@@ -318,11 +318,11 @@ public class Main extends Activity implements SensorEventListener {
 //				}
 //				postStatusMessage(Gps_toPost);
 //				 postImage("/sdcard/TestVideo/1placa.png");
-				String topublish = Gps_toPost + "Recognized Plate: " + recognizedText;
-				postImage(resultado + "_placa" , topublish);
-				//for testing
 //				String topublish = Gps_toPost + "Recognized Plate: " + recognizedText;
-//				postImage("/sdcard/TestVideo/null_placaxx.png" , topublish);
+//				postImage(resultado + "_placa" , topublish);
+				//for testing
+				String topublish = Gps_toPost + "Recognized Plate: " + "LCY-675";
+				postImage("/sdcard/TestVideo/null_placaxxx.png" , topublish);
 //				postStatusMessage(recognizedText);
 			}
 		});
@@ -334,11 +334,11 @@ public class Main extends Activity implements SensorEventListener {
 		OCRbutton.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View view) {
-				Log.v(TAG, "click ocr button");
-				String[] frames = Cincoframes(resultado);
-				plate = OCR_FUNCTION(frames[3]);
+//				Log.v(TAG, "click ocr button");
+//				String[] frames = Cincoframes(resultado);
+//				plate = OCR_FUNCTION(frames[3]);
 				//for testing
-//				plate = OCR_FUNCTION(test_file);
+				plate = OCR_FUNCTION(test_file);
 			}
 		});
 		OCRbutton2 = (Button) findViewById(R.id.ocr2); //OCR2
@@ -874,8 +874,8 @@ public class Main extends Activity implements SensorEventListener {
 	public Bitmap OCR_FUNCTION(String imagePath) {// Log.v(TAG, "column");
 		Mat grayMat = toGrayMat(imagePath);
 		Mat equalMat = histeq2(grayMat);
-//		Mat toBlur = blurMat(equalMat);
-		Mat threshMat = thresholdMat(equalMat);
+		Mat toBlur = blurMat(equalMat);
+		Mat threshMat = thresholdMat(toBlur);
 		Mat cannieMat = cannyMat(threshMat);
 		Mat dilateM = dilateMat(cannieMat, 1.1f);
 //		Mat morphClose = morphologicalMat(dilateM);
@@ -917,8 +917,16 @@ public class Main extends Activity implements SensorEventListener {
 			Log.v(TAG, "TEXTO obtenido: " + recognizedText);
 			display.setText(recognizedText);
 		}
+		else{
+			recognizedText= "No plate recognized";
+		}
 	}
-	
+	public Mat blurMat(Mat GrayMat) {
+		Mat toBlur = new Mat();
+		org.opencv.core.Size s = new Size(5, 5);
+		Imgproc.GaussianBlur(GrayMat, toBlur, s, 1);
+		return toBlur;
+	}
 	public Bitmap zoomMat(Mat in, MatOfPoint cuad1, int Scalefactor){//obtiene maximos y minimos
 //		Mat out = new Mat();
 		List<Point> list1 = cuad1.toList();
