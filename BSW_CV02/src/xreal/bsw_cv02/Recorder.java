@@ -29,8 +29,7 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.os.Build;
 
-public class Recorder extends Activity implements SurfaceHolder.Callback,
-		MediaRecorder.OnInfoListener {
+public class Recorder extends Activity implements SurfaceHolder.Callback,MediaRecorder.OnInfoListener {
 	private SurfaceView prSurfaceView;
 	private Button prStartBtn;
 	// private Button prSettingsBtn;
@@ -151,7 +150,7 @@ public class Recorder extends Activity implements SurfaceHolder.Callback,
 			prMediaRecorder.setPreviewDisplay(prSurfaceHolder.getSurface());
 			prMediaRecorder.setMaxDuration(cMaxRecordDurationInMs);
 			prMediaRecorder.setMaxFileSize(cMaxFileSizeInBytes);
-
+			
 			prMediaRecorder.setOnInfoListener(this);
 			prMediaRecorder.prepare();
 			prMediaRecorder.start();
