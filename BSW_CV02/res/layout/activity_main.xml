@@ -69,7 +69,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button_ocr"
+            android:id="@+id/ocr"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/recorder"
             android:layout_alignBottom="@+id/recorder"
-            android:layout_alignLeft="@+id/button_ocr"
+            android:layout_alignLeft="@+id/ocr"
             android:text="OCR result"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -130,6 +130,17 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/ocr2"
             android:text="ocr3" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/loginButton"
+            android:layout_alignRight="@+id/ocr3"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
 
     </RelativeLayout>
 

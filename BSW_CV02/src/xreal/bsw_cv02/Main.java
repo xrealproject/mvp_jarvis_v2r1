@@ -142,7 +142,7 @@ public class Main extends Activity implements SensorEventListener {
 	// data logger txt ---------------------
 	// GPS GPS GPS---------------------------------------------------------
 	String resultado;
-	String Gps_toPost;
+	public static String Gps_toPost;
 	// tesseract----------------------------------------------------------
 	Button OCRbutton;
 	Button OCRbutton2;
@@ -155,7 +155,9 @@ public class Main extends Activity implements SensorEventListener {
 	String lang = "eng";
 	String recognizedText;
 	String[] frames={ " ", " ", " ", " ", " " };
+	EditText editText1;
 	// tesseract------------------------------------------------------------
+	String test_file;// = "/sdcard/TestVideo/placas/trainning set/2medio/" + editText1.toString() + ".png";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -305,7 +307,8 @@ public class Main extends Activity implements SensorEventListener {
 			}
 		});
 
-		final String test_file = "/sdcard/TestVideo/2014.08.12_16.36.06.4000000.png";//for testing 33.jpg
+		editText1 = (EditText) findViewById(R.id.editText1);
+//		final String test_file;// = "/sdcard/TestVideo/placas/trainning set/2medio/" + editText1.toString() + ".png";//for testing 33.jpg
 		shareBtn = (Button) findViewById(R.id.shareButton); //SHARE
 		shareBtn.setOnClickListener(new OnClickListener() {
 			@Override
@@ -330,7 +333,7 @@ public class Main extends Activity implements SensorEventListener {
 		// OCR--------------------------------------------------------
 		display = (TextView) findViewById(R.id.textView_ocr);
 		imageView1 = (ImageView) findViewById(R.id.imageView1);
-		OCRbutton = (Button) findViewById(R.id.button_ocr); //OCR
+		OCRbutton = (Button) findViewById(R.id.ocr); //OCR
 		OCRbutton.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View view) {
@@ -338,6 +341,8 @@ public class Main extends Activity implements SensorEventListener {
 //				String[] frames = Cincoframes(resultado);
 //				plate = OCR_FUNCTION(frames[3]);
 				//for testing
+				test_file = "/sdcard/TestVideo/placas/trainning set/2medio/" + editText1.getText().toString() + ".jpg";
+				Log.v(TAG, "test file: " + test_file);
 				plate = OCR_FUNCTION(test_file);
 			}
 		});
@@ -638,6 +643,7 @@ public class Main extends Activity implements SensorEventListener {
 				String result = data.getStringExtra("result");
 				resultado = result;
 				Log.v(TAG, "resultado obtenido " + resultado);
+				Log.v(TAG, "Gpsto post public static: " + Gps_toPost);
 			}
 			if (resultCode == RESULT_CANCELED) {
 				// Write your code if there's no result
@@ -883,7 +889,12 @@ public class Main extends Activity implements SensorEventListener {
 		List<MatOfPoint> cuadcontour = detectar_cuadrilateros1(dilateM);
 		Mat outputMat = drawCont2(dilateM, cuadcontour);//dibuja sobre lo qe no deberia
 		Mat clipp = clipping2(threshMat, outputMat);
+		if(cuadcontour.size()==0){
+			display.setText("Plate not Found");
+			return null;
+		}
 		
+		else{
 		Bitmap zoomed = zoomMat(clipp, cuadcontour.get(0),1);
 		
 //		showonImageView(clipp);
@@ -896,6 +907,7 @@ public class Main extends Activity implements SensorEventListener {
 //		Log.v(TAG, "TEXTO obtenido: " + recognizedText);
 //		display.setText(recognizedText);
 		return zoomed;
+		}
 	}
 	
 	public Bitmap OCR_FUNCTION3(Bitmap zoomed) {
