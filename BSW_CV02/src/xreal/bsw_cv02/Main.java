@@ -336,17 +336,17 @@ public class Main extends Activity implements SensorEventListener {
 		OCRbutton = (Button) findViewById(R.id.ocr); //OCR
 		OCRbutton.setOnClickListener(new OnClickListener(){
 			@Override
-			public void onClick(View view) {
+			public void onClick(View view) {//procesa el frame entero y recorta la placa
 //				Log.v(TAG, "click ocr button");
 //				String[] frames = Cincoframes(resultado);
 //				plate = OCR_FUNCTION(frames[3]);
 				//for testing
-				test_file = "/sdcard/TestVideo/placas/trainning set/2medio/" + editText1.getText().toString() + ".jpg";
+				test_file = "/sdcard/TestVideo/placas/trainning set de la web/2medio/" + "IMG_0388" + ".jpg";//editText1.getText().toString()
 				Log.v(TAG, "test file: " + test_file);
 				plate = OCR_FUNCTION(test_file);
 			}
 		});
-		OCRbutton2 = (Button) findViewById(R.id.ocr2); //OCR2
+		OCRbutton2 = (Button) findViewById(R.id.ocr2); //OCR2 tesseract
 		OCRbutton2.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View view) {
@@ -910,16 +910,18 @@ public class Main extends Activity implements SensorEventListener {
 		}
 	}
 	
-	public Bitmap OCR_FUNCTION3(Bitmap zoomed) {
-		Mat matin = new Mat(zoomed.getWidth(), zoomed.getHeight(),CvType.CV_8UC1);
-		Utils.bitmapToMat(zoomed, matin);
+	public Bitmap OCR_FUNCTION3(Bitmap zoomedbit) {
+		Mat matin = new Mat(zoomedbit.getWidth(), zoomedbit.getHeight(),CvType.CV_8UC1);Log.v(TAG, "created matin");
+		Utils.bitmapToMat(zoomedbit, matin);Log.v(TAG, "zoomed to matin");
+		Mat cannyplate = cannyMat(matin);
 		List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
-		Mat mHierarchy = new Mat();
-		Imgproc.findContours(matin, contours, mHierarchy,Imgproc.RETR_CCOMP, Imgproc.CHAIN_APPROX_NONE);
-		Mat outputMat = drawCont2(matin, contours);
-		Utils.matToBitmap(outputMat, zoomed);
-		imageView1.setImageBitmap(zoomed);
-		return zoomed;
+		Mat mHierarchy = new Mat();Log.v(TAG, "to search contours");//hasta aqui
+		Imgproc.findContours(cannyplate, contours, mHierarchy,Imgproc.RETR_EXTERNAL, Imgproc.CHAIN_APPROX_NONE);
+		Log.v(TAG, "to draw contours");
+		Mat outputMat = drawCont3(matin, contours);Log.v(TAG, "output map returned");Log.v(TAG, "returned output mat");
+		Utils.matToBitmap(outputMat, zoomedbit);Log.v(TAG, "mat to bitmap");
+		imageView1.setImageBitmap(zoomedbit);
+		return zoomedbit;
 	}
 	
 	public void OCR_FUNCTION2(Bitmap zoomed) {// Log.v(TAG, "column");
@@ -1057,12 +1059,30 @@ public class Main extends Activity implements SensorEventListener {
 	public Mat drawCont2(Mat image, List<MatOfPoint> contours) { // fill de
 																	// contours
 		Mat drawing = Mat.zeros(image.size(), CvType.CV_8UC1);
-		Scalar color = new Scalar(255, 0, 0);
+		Scalar color = new Scalar(255);
 		Mat hierarchy = new Mat();
 		Point point = new Point(0, 0);
 		for (int i = 0; i < contours.size(); i++) {
 			Imgproc.drawContours(drawing, contours, i, color, -1, 8, hierarchy,
 					0, point);
+		}
+		return drawing;
+	}
+	
+	public Mat drawCont3(Mat image, List<MatOfPoint> contours) { // fill de
+		// contours
+		Mat drawing = Mat.zeros(image.size(), CvType.CV_8UC1);
+		Scalar color = new Scalar(255);
+		Mat hierarchy = new Mat();
+		Point point = new Point(0, 0);
+		double areaofcont ;
+		Log.v(TAG, "total contornos: " + contours.size());
+		for (int i = 0; i < contours.size(); i++) {
+			if(Imgproc.contourArea(contours.get(i))>90){// && Imgproc.isContourConvex(contours.get(i))){
+			Imgproc.drawContours(drawing, contours, i, color, 1, 8, hierarchy, 1, point);
+			areaofcont = Imgproc.contourArea(contours.get(i));
+			Log.v(TAG, "area contorno " + i + ": " + areaofcont);
+			}
 		}
 		return drawing;
 	}
