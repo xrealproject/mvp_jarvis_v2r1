@@ -913,12 +913,21 @@ public class Main extends Activity implements SensorEventListener {
 	public Bitmap OCR_FUNCTION3(Bitmap zoomedbit) {
 		Mat matin = new Mat(zoomedbit.getWidth(), zoomedbit.getHeight(),CvType.CV_8UC1);Log.v(TAG, "created matin");
 		Utils.bitmapToMat(zoomedbit, matin);Log.v(TAG, "zoomed to matin");
-		Mat cannyplate = cannyMat(matin);
+//		Mat cannyplate = cannyMat(matin);
+		Mat cannyplate = new Mat();
+		Imgproc.Canny(matin, cannyplate, 66, 90);
+//		Mat dilateM = dilateMat(cannyplate, 1.05f);
 		List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
 		Mat mHierarchy = new Mat();Log.v(TAG, "to search contours");//hasta aqui
 		Imgproc.findContours(cannyplate, contours, mHierarchy,Imgproc.RETR_EXTERNAL, Imgproc.CHAIN_APPROX_NONE);
 		Log.v(TAG, "to draw contours");
-		Mat outputMat = drawCont3(matin, contours);Log.v(TAG, "output map returned");Log.v(TAG, "returned output mat");
+		Mat outputMat2 = matin.clone();
+		outputMat2 = drawCont3(cannyplate, contours);Log.v(TAG, "output2 returned");
+//				Log.v(TAG, "matin size:      " + matin.size().width +" "+ matin.size().height);
+//				Log.v(TAG, "outputMat2 size: " + outputMat2.size().width +" "+ outputMat2.size().height);
+//		Mat outputMat = clipping2(matin, outputMat2);
+		Mat outputMat = new Mat();
+		matin.copyTo(outputMat, outputMat2);
 		Utils.matToBitmap(outputMat, zoomedbit);Log.v(TAG, "mat to bitmap");
 		imageView1.setImageBitmap(zoomedbit);
 		return zoomedbit;
@@ -1079,7 +1088,7 @@ public class Main extends Activity implements SensorEventListener {
 		Log.v(TAG, "total contornos: " + contours.size());
 		for (int i = 0; i < contours.size(); i++) {
 			if(Imgproc.contourArea(contours.get(i))>90){// && Imgproc.isContourConvex(contours.get(i))){
-			Imgproc.drawContours(drawing, contours, i, color, 1, 8, hierarchy, 1, point);
+			Imgproc.drawContours(drawing, contours, i, color, -1, 8, hierarchy, 1, point);
 			areaofcont = Imgproc.contourArea(contours.get(i));
 			Log.v(TAG, "area contorno " + i + ": " + areaofcont);
 			}
@@ -1090,7 +1099,6 @@ public class Main extends Activity implements SensorEventListener {
 	public Mat clipping2(Mat thresholdMat, Mat mask) {
 		Mat clippedMat = new Mat();
 		Core.multiply(mask, thresholdMat, clippedMat);
-
 		return clippedMat;
 	}
 
