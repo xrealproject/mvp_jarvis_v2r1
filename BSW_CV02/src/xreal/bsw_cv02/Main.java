@@ -341,7 +341,7 @@ public class Main extends Activity implements SensorEventListener {
 //				String[] frames = Cincoframes(resultado);
 //				plate = OCR_FUNCTION(frames[3]);
 				//for testing
-				test_file = "/sdcard/TestVideo/placas/trainning set de la web/2medio/" + "IMG_0388" + ".jpg";//editText1.getText().toString()
+				test_file = "/sdcard/TestVideo/placas/placas jr la mar/" + editText1.getText().toString() + ".png";
 				Log.v(TAG, "test file: " + test_file);
 				plate = OCR_FUNCTION(test_file);
 			}
@@ -1078,7 +1078,7 @@ public class Main extends Activity implements SensorEventListener {
 		return drawing;
 	}
 	
-	public Mat drawCont3(Mat image, List<MatOfPoint> contours) { // fill de
+	public Mat drawCont3(Mat image, List<MatOfPoint> contours) { // fill de  llamado filtro2
 		// contours
 		Mat drawing = Mat.zeros(image.size(), CvType.CV_8UC1);
 		Scalar color = new Scalar(255);
@@ -1087,7 +1087,7 @@ public class Main extends Activity implements SensorEventListener {
 		double areaofcont ;
 		Log.v(TAG, "total contornos: " + contours.size());
 		for (int i = 0; i < contours.size(); i++) {
-			if(Imgproc.contourArea(contours.get(i))>90){// && Imgproc.isContourConvex(contours.get(i))){
+			if(Imgproc.contourArea(contours.get(i))>100.0){// && Imgproc.isContourConvex(contours.get(i))){
 			Imgproc.drawContours(drawing, contours, i, color, -1, 8, hierarchy, 1, point);
 			areaofcont = Imgproc.contourArea(contours.get(i));
 			Log.v(TAG, "area contorno " + i + ": " + areaofcont);
