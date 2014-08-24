@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks">
+  <uml:Model xmi:id="_WOGD4CpCEeSuSudv6ijdXA" name="SysMLmodel">
+    <packagedElement xmi:type="uml:Package" xmi:id="__nDJECpCEeSuSudv6ijdXA" name="Vision Integrator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_k_MEMCpDEeSuSudv6ijdXA" name="Vision integrator">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1YTAoCpDEeSuSudv6ijdXA" name="cam module" type="_ueOxgCpDEeSuSudv6ijdXA" aggregation="composite" association="_1YM6ACpDEeSuSudv6ijdXA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2w9csCpDEeSuSudv6ijdXA" name="sensor and transductor" type="_wJbIACpDEeSuSudv6ijdXA" aggregation="composite" association="_2w81oCpDEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ueOxgCpDEeSuSudv6ijdXA" name="Cam module"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wJbIACpDEeSuSudv6ijdXA" name="Connector module"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1YM6ACpDEeSuSudv6ijdXA" name="Association" memberEnd="_1YTAoCpDEeSuSudv6ijdXA _1YUOwCpDEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1YQkYCpDEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1YRLcCpDEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_1YUOwCpDEeSuSudv6ijdXA" name="vision integrator" type="_k_MEMCpDEeSuSudv6ijdXA" association="_1YM6ACpDEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2w81oCpDEeSuSudv6ijdXA" name="Association1" memberEnd="_2w9csCpDEeSuSudv6ijdXA _2w9csSpDEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2w81oSpDEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2w81oipDEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2w9csSpDEeSuSudv6ijdXA" name="vision integrator" type="_k_MEMCpDEeSuSudv6ijdXA" association="_2w81oCpDEeSuSudv6ijdXA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CVXJcCpDEeSuSudv6ijdXA" name="Sensor &amp; transductor">
+      <packagedElement xmi:type="uml:Class" xmi:id="_l_q0UCpEEeSuSudv6ijdXA" name="LIDAR"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oJm8UCpEEeSuSudv6ijdXA" name="Sensor and transductor">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xlqnECpEEeSuSudv6ijdXA" name="lidar" type="_l_q0UCpEEeSuSudv6ijdXA" aggregation="composite" association="_xlmVoCpEEeSuSudv6ijdXA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zBrSESpEEeSuSudv6ijdXA" name="gps sensor" type="_q_aEwCpEEeSuSudv6ijdXA" aggregation="composite" association="_zBqD8CpEEeSuSudv6ijdXA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zyRokCpEEeSuSudv6ijdXA" name="ir sensor" type="_p4PBUCpEEeSuSudv6ijdXA" aggregation="composite" association="_zyQacCpEEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_p4PBUCpEEeSuSudv6ijdXA" name="IR sensor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_q_aEwCpEEeSuSudv6ijdXA" name="GPS sensor"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xlmVoCpEEeSuSudv6ijdXA" name="Association" memberEnd="_xlqnECpEEeSuSudv6ijdXA _xlrOICpEEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xloK0CpEEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xlox4CpEEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xlrOICpEEeSuSudv6ijdXA" name="sensor and transductor" type="_oJm8UCpEEeSuSudv6ijdXA" association="_xlmVoCpEEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zBqD8CpEEeSuSudv6ijdXA" name="Association1" memberEnd="_zBrSESpEEeSuSudv6ijdXA _zBr5ICpEEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zBqrACpEEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zBrSECpEEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zBr5ICpEEeSuSudv6ijdXA" name="sensor and transductor" type="_oJm8UCpEEeSuSudv6ijdXA" association="_zBqD8CpEEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zyQacCpEEeSuSudv6ijdXA" name="Association2" memberEnd="_zyRokCpEEeSuSudv6ijdXA _zyRokSpEEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyRBgCpEEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyRBgSpEEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zyRokSpEEeSuSudv6ijdXA" name="sensor and transductor" type="_oJm8UCpEEeSuSudv6ijdXA" association="_zyQacCpEEeSuSudv6ijdXA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EI7_4CpDEeSuSudv6ijdXA" name="Social Connector">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-qGtwCpEEeSuSudv6ijdXA" name="Social Connector">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_EvGWEipFEeSuSudv6ijdXA" name="mobile device" type="_CH4cMCpFEeSuSudv6ijdXA" aggregation="composite" association="_EvFH8CpFEeSuSudv6ijdXA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CH4cMCpFEeSuSudv6ijdXA" name="Mobile device"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_EvFH8CpFEeSuSudv6ijdXA" name="Association" memberEnd="_EvGWEipFEeSuSudv6ijdXA _EvG9ICpFEeSuSudv6ijdXA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EvGWECpFEeSuSudv6ijdXA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EvGWESpFEeSuSudv6ijdXA" key="nature" value="SysML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_EvG9ICpFEeSuSudv6ijdXA" name="social connector" type="_-qGtwCpEEeSuSudv6ijdXA" association="_EvFH8CpFEeSuSudv6ijdXA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WO7xYCpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WPAC0CpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WaZagCpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaaBkCpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WajLgCpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WajLgSpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WajLgipCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WajykCpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WajykSpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WajykipCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WajykypCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WakZoCpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WakZoSpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WakZoipCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WalAsCpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WalAsSpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WalAsipCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WalAsypCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WalnwCpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WalnwSpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WamO0CpCEeSuSudv6ijdXA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WamO0SpCEeSuSudv6ijdXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_k_OgcCpDEeSuSudv6ijdXA" base_Class="_k_MEMCpDEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_uePYkCpDEeSuSudv6ijdXA" base_Class="_ueOxgCpDEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_wJbvECpDEeSuSudv6ijdXA" base_Class="_wJbIACpDEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_l_rbYCpEEeSuSudv6ijdXA" base_Class="_l_q0UCpEEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_oJnjYCpEEeSuSudv6ijdXA" base_Class="_oJm8UCpEEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_p4PoYCpEEeSuSudv6ijdXA" base_Class="_p4PBUCpEEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_q_aEwSpEEeSuSudv6ijdXA" base_Class="_q_aEwCpEEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_-qGtwSpEEeSuSudv6ijdXA" base_Class="_-qGtwCpEEeSuSudv6ijdXA"/>
+  <Blocks:Block xmi:id="_CH5DQCpFEeSuSudv6ijdXA" base_Class="_CH4cMCpFEeSuSudv6ijdXA"/>
+</xmi:XMI>
